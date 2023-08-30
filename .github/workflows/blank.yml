@@ -1,0 +1,9 @@
+name: Your Workflow Name
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  # Your job configuration here...
