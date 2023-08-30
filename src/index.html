@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Chart.js</title>
+  <style> 
+  .centered {
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top of the container */
+    padding: 0px; /* Add padding to the container */
+  }
+
+  .centered div {
+    width: calc(10% - 80vw); /* Adjust the width calculation based on the padding */
+    max-width: 300px; /* Limit the maximum width of each canvas */
+    margin: 10px; /* Add spacing between canvas elements */
+  }
+  </style>
+
+</head>
+<body>
+  <div>
+    <div><canvas id="designskillset"></canvas></div>
+    <div><canvas id="controlsskillset"></canvas></div>
+    <div><canvas id="frontendskillset"></canvas></div>
+    <div><canvas id="backendskillset"></canvas></div>
+  </div>
+
+  <script type="module" src="designskillset.js"></script>
+  <script type="module" src="controlsskillset.js"></script>
+  <script type="module" src="frontendskillset.js"></script>
+  <script type="module" src="backendskillset.js"></script>
+</body>
+</html>
+

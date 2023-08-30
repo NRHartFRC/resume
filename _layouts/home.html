@@ -1,0 +1,62 @@
+---
+#Add "layout: compress" here to compress the html code
+---
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+{% include head.html %}
+
+<body>
+  <article class="resume-wrapper text-center position-relative">
+    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+      {% include header.html %}
+      <div class="resume-body p-5">
+        {% include summary.html %}
+        <div class="row">
+          <div class="col-lg-9">
+              {% include experience.html %}
+              <img src="{{ site.baseurl }}/assets/images/FIRST.png" style="max-width: 100px;" alt="FIRST">
+              <img src="{{ site.baseurl }}/assets/images/GV.png" style="max-width: 100px;" alt="GV">
+              <img src="{{ site.baseurl }}/assets/images/HHSPirates.png" style="max-width: 80px;" alt="HHS">
+          </div>
+          <div class="col-lg-3">
+              {% include skills.html %}
+              {% include education.html %}
+              {% include awards.html %}
+              {% include language.html %}
+              {% include interests.html %}
+          </div>
+        </div>
+        <!--//row-->
+        <!doctype html>
+        <html lang="en">
+          <head>
+            <title>Chart.js example</title>
+          </head>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <body>
+            <div class="centered">
+              <div><canvas id="designskillset"></canvas></div><br/>
+              <div><canvas id="controlsskillset"></canvas></div><br/>
+              <div><canvas id="frontendskillset"></canvas></div><br/>
+              <div><canvas id="backendskillset"></canvas></div><br/>
+
+              <script type="module" src="{{ site.baseurl }}/src/designskillset.js"></script>
+              <script type="module" src="{{ site.baseurl }}/src/controlsskillset.js"></script>
+              <script type="module" src="{{ site.baseurl }}/src/frontendskillset.js"></script>
+              <script type="module" src="{{ site.baseurl }}/src/backendskillset.js"></script>
+            </div>
+          </body>
+        </html>
+        <!-- designskillset -->
+      </div>
+    </div>
+  </article>
+
+  {% include footer.html %}
+</body>
+
+</html>

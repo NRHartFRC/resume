@@ -1,0 +1,331 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+header:
+  # Profile information
+  avatar: CoachMentorNR.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: rombachnicholas@gmail.com
+  phone: (231) 233-8787
+  website: https://oceanarobotics.github.io/OceanaFRC/
+  linkedin: nicholasrombach
+  github: 
+  gitlab:
+  bitbucket:
+  twitter: #""
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+# languages:
+#   - idiom: English
+#     level: Native
+#   - idiom: Spanish
+#     level: Beginner
+#   # - idiom: Spanish
+#   #   level: Professional
+
+interests:
+  - name: Robotics 🦾
+    link: https://oceanarobotics.github.io/OceanaFRC/
+  - name: Botany 🌹
+    link:
+  - name: Programming 💻
+    link:
+  - name: Snowboarding 🏂
+    link:
+  - name: Running 🏃‍♂️
+    link:
+  - name: Blockchain / Web 3.0 🌐
+    link:
+  - name: Smart Contracts 📱
+    link:
+  - name: Kayaking 🚣‍♂️
+    link:
+  - name: Physics ⚛️
+    link:
+  - name: Investing 💸
+    link:
+  - name: Wakesurfing 🏄‍♂️
+    link:
+  - name: Skimboarding 🌊
+    link:
+  - name: Gardening 🐝
+    link:
+  - name: Climbing 🧗‍♂️
+    link:
+  - name: Hiking 🥾
+    link:
+  
+
+summary: |
+  Results-oriented Design Engineer with a passion for problem solving, innovation and automation.
+  Seeking a dynamic role in automation or design engineering to leverage a comprehensive
+  skill set spanning multiple engineering disciplines. Backed by a solid education and a
+  track record of impactful contributions in both academic and professional settings.
+  
+
+education:
+  - degree: B.S.E. Product Design & Manufacturing Engineering
+    university: Grand Valley State University
+    time: 2014 - 2019
+    details: |
+      Padnos College of Engineering and Computing
+        - Materials Science
+        - Biomedical Materials
+        - Materials for Energy Storage
+        - Manufacturing Control Systems
+        - Dynamic System Model/Control
+        - Robotic Systems Engineering
+        - Thermal and Fluid Systems
+
+experiences:
+  - role: Design Engineer
+    time: 2019 - 2021
+    company: UACJ Automotive Whitehall Industries, Inc.
+    details: |
+      As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal roll 
+      in conceptualizing, designing, and implementing advanced production and prototype 
+      machinery and fixtures. Leveraging my expertise in engineering and automation, I delivered 
+      exceptional contributions that spanned the entire product lifecycle. I successfully combined 
+      theoretical prowess with hands-on manufacturing skills to drive innovation and efficiency 
+      in various projects. Notable accomplishments include:
+        - Pioneered Excel-based Automated Bill of Materials using Visual Basic and SolidWorks API.
+        - Presented theoretical calculations and simulation results for proposed designs.
+        - Manufactured precision tooling parts via manual and CNC milling machines.
+        - Led end-to-end design of production/prototype machinery and fixtures
+        - Value Added / Value Engineering
+        - Lean Manufacturing
+    achievements:
+      desc: |
+        Streamlined end-to-end CAD workflow in Solidworks for the department that is still in use today!
+        Practiced safe design, and executed good manufacturing practices while being awarded highly dynamic
+        jobs that involved several moving parts automation-friendly dies, machines, and machine fixtures.
+      highlights:
+        - Remedied burden of constant ECNs in automotive industry using Solidworks API
+        - Provided a shared vision between cross functional teams
+        - Presented complex theoretical calculations and simulation results to support machine and tooling designs.
+    technologies:
+      - SolidWorks
+      - Catia
+      - eDrawings
+      - Acrobat Adobe
+      - MS Excel
+      - Visual Basic for Applications
+
+  - role: Engineering Intern
+    subrole: New Product Launch Team
+    time: 2018 - 2019
+    company: Viant Medical
+    details: |
+      As an Engineering Intern at Viant Medical's medical device manufacturing facility, I contributed to the
+      seamless introduction of new products into the market by authoring åcomprehensive work instructions
+      and equipment operating guidelines. My role involved meticulous adherence to quality standards and
+      regulations, including ISO 13485. In addition, I played a key role in enhancing product development
+      processes through innovative prototyping methods and rigorous test method validations.
+      Key contributions include:
+        - Rapid prototyping
+        - Statistical analysis
+        - Test method validations
+        - Design of experiments
+        - Technical writing
+        - Critical thinking
+    achievements:
+      desc: |
+        As part of the medical device launch team, and in compliance with industry standard, my team and I successfully
+        launched a novel, FDA approved, closed system transfer device for hazardous of chemotherapy drugs. I also completed
+        Lean Academy simulations.
+    technologies:
+      - Tensile tester
+      - Ultrasonic welder
+      - Laser welder
+      - UV adhesive
+      - Optical imaging
+      - Micrometer & calipers
+      - Minitab
+      - MS Word / Excel
+
+  - role: CAD Designer
+    subrole: Intern Technical II
+    time: 2017 - 2017
+    company: Johnson Controls / Hart & Cooley, Inc.
+    details: |
+      As an Intern Technical II at Johnson Controls’ Hart & Cooley, Inc., I played a vital role in the creation and design
+      of HVAC equipment, contributing to the company's commitment to precision and customer satisfaction. Leveraging my skills
+      in engineering and CAD software, I meticulously crafted both 2D and 3D models, ensuring they aligned with exact customer
+      specifications for out-of-state assembly. Key responsibilities and achievements include:
+    technologies:
+      - AutoDesk Inventor
+      - iLogic
+
+  - role: Engineering Technicial
+    subrole: Intern
+    time: 2016 - 2016
+    company: Mihcigan Foam Products, Inc.
+    details: |
+      As an Engineering Technician Intern at Michigan Foam Products, Inc., I contributed 
+      significantly to the production process by employing innovative 'zero-scrap' techniques and low-cost tools 
+      to manufacture expanded polystyrene foam. My role was to route parts throughout the manufacturing plant while
+      ensuring efficient material removal and assembly. Key responsibilities and achievements include:
+    technologies:
+      - SolidWorks
+      - NiCr wire
+      - CNC hotwire
+      - Adhesives
+      - Steam chamber
+      - Block mold machine
+
+# awards:
+#   - name: Award Name Lorem
+#     description: |
+#       Award desc goes here, ultricies nec, pellentesque
+#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+#   - name: Award Name Lorem
+#     description: |
+#       Award desc goes here, ultricies nec, pellentesque
+#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+
+# Projects are not used in this template for now
+# projects:
+#   title: Projects
+#   intro: >
+#     In recent, I have been volunteering at a local high school, coaching and mentoring robotics. I was als
+#   assignments:
+#     - title: Velocity
+#       link: "#hook"
+#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#     - title: DevStudio
+#       link: "#"
+#       tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# Publications are not used in this template for now
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: "#"
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
+
+#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#       link: "#"
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#     - title: A syntax directed compiler for Algol 60
+#       link: "#"
+#       authors: Edgar T. Irons
+#       conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+  - category: Design
+    tools:
+      - name: SolidWorks
+        level: 98%
+      - name: AutoDesk Inventor
+        level: 60%
+      - name: AutoCAD
+        level: 60%
+      - name: Catia
+        level: 70%
+      - name: eDrawings
+        level: 90%
+      - name: Adobe Acrobat
+        level: 95%
+      - name: OnShape
+        level: 80%
+  - category: Controls
+    tools:
+      - name: RS Logix Studio 5000
+        level: 95%
+      - name: FactoryTalk View Studio Machine Edition
+        level: 90%
+      - name: Ladder Logic
+        level: 98%
+      - name: PanelView Plus
+        level: 90%
+      - name: Network Configuration
+        level: 30%
+      - name: Process Sequence Bits
+        level: 90%
+      - name: Process Sequence Words
+        level: 80% 
+  - category: Frontend
+    tools:
+      - name: React
+        level: 50%
+      - name: Redux
+        level: 30%
+      - name: JavaScript
+        level: 25%
+      - name: Node.js
+        level: 10%
+      - name: HTML/CSS/SASS
+        level: 75%
+  - category: Backend
+    tools:
+      - name: Python
+        level: 80%
+      - name: LabView
+        level: 50%
+      - name: Java
+        level: 50%
+      - name: Ruby
+        level: 20%
+      - name: C
+        level: 65%
+      - name: C++
+        level: 15%
+      - name: Solidity
+        level: 30%
+
+  - category: others
+    tools:
+      - FANUC teach pendant
+      - Inverse Kinematics
+      - ATMega 328P Microcontroller
+      - Xilinx
+      - Transducers
+      - VFD
+      - Gearboxes
+      - Servos
+      - Visual Studio Code
+      - GMAW
+      - SMAW
+      - TIG welding
+      - Laser welding
+      - Ultrasoncic welding
+      - Casting
+      - Tensile tesing
+      - Pneumatics
+      - Hydraulics
+      - Thermal and fluid systems
+      - Material science
+      - Biomedical materials
+      - Manual Mill
+      - CNC
+      - Git
+      - GitHub
+      - Jekyll
+      - Truffle
+      - HardHat framework
+      - Blockchain / Web3
+      - Smart contracts
+
