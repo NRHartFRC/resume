@@ -10,7 +10,7 @@ const frontenddata = {
   ],
   datasets: [{
     label: 'Frontend Skills',
-    data: [60,30,25,10,40],
+    data: [60,10,25,10,30],
     fill: true,
     backgroundColor: 'rgba(130, 0, 130, 0.2)',
     borderColor: 'rgb(130, 0, 130)',

@@ -8,11 +8,12 @@ const designdata = {
     'Catia',
     'eDrawings',
     'Adobe Acrobat',
-    'OnShape'
+    'OnShape',
+    'Fusion 360'
   ],
   datasets: [{
     label: 'Design Skills',
-    data: [98,70,75,65,90,95,80],
+    data: [98,75,75,65,90,95,80,60],
     fill: true,
     backgroundColor: 'rgba(50, 99, 50, 0.2)',
     borderColor: 'rgb(20, 0, 130)',

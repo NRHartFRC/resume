@@ -1,22 +1,24 @@
 // import Chart from 'chart.js/auto';
 
-const designdata = {
+const softdata = {
   labels: [
-    'SolidWorks',
-    'AutoDesk Inventor',
-    'AutoCAD',
-    'Catia',
-    'eDrawings',
-    'Adobe Acrobat',
-    'OnShape',
-    'Fusion 360'
+    'Problem Solving',
+    'Communicating',
+    'Leadership',
+    'Mentoring',
+    'Adaptability',
+    'Critical Thinking',
+    'Motivated',
+    'Teamwork',
+    'Creative',
+    'Listening',
   ],
   datasets: [{
-    label: 'Design Skills',
-    data: [98,75,75,65,90,95,80,60],
+    label: 'Soft Skills',
+    data: [95,90,80,85,90,100,90,85,95,90],
     fill: true,
-    backgroundColor: 'rgba(50, 99, 50, 0.2)',
-    borderColor: 'rgb(20, 0, 130)',
+    backgroundColor: 'rgba(130, 0, 130, 0.2)',
+    borderColor: 'rgb(130, 0, 25)',
     pointBackgroundColor: 'rgb(255, 99, 132)',
     pointBorderColor: '#fff',
     pointHoverBackgroundColor: '#fff',
@@ -24,9 +26,9 @@ const designdata = {
   }]
 };
 
-const designconfig = {
+const softconfig = {
   type: 'radar',
-  data: designdata,
+  data: softdata,
   options: {
     responsive: true,
     maintainAspectRatio: true,
@@ -49,6 +51,6 @@ const designconfig = {
 };
 
 new Chart(
-  document.getElementById('designskillset'),
-  designconfig
+  document.getElementById('softskillset'),
+  softconfig
 );

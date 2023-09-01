@@ -82,7 +82,7 @@ education:
 experiences:
   - role: Design Engineer
     time: 2019 - 2021
-    company: UACJ Automotive Whitehall Industries, Inc.
+    company: UACJ Automotive Whitehall Industries
     details: |
       As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal roll 
       in conceptualizing, designing, and implementing advanced production and prototype 
@@ -90,17 +90,18 @@ experiences:
       exceptional contributions that spanned the entire product lifecycle. I successfully combined 
       theoretical prowess with hands-on manufacturing skills to drive innovation and efficiency 
       in various projects. Notable accomplishments include:
-        - Pioneered Excel-based Automated Bill of Materials using Visual Basic and SolidWorks API.
-        - Presented theoretical calculations and simulation results for proposed designs.
-        - Manufactured precision tooling parts via manual and CNC milling machines.
-        - Led end-to-end design of production/prototype machinery and fixtures
-        - Value Added / Value Engineering
+        - Pioneered Automated Bill of Materials using Visual Basic and SolidWorks API
+        - Presented theoretical calculations and simulation results for proposed designs
+        - Manufactured precision tooling parts via manual and CNC milling machines
+        - Led end-to-end design of production/prototype machines and fixtures
+        - Value Added / Value Engineering (VAVE)
         - Lean Manufacturing
     achievements:
       desc: |
-        Streamlined end-to-end CAD workflow in Solidworks for the department that is still in use today!
-        Practiced safe design, and executed good manufacturing practices while being awarded highly dynamic
-        jobs that involved several moving parts automation-friendly dies, machines, and machine fixtures.
+        Streamlined full-scope CAD workflow for SolidWorks for the Tooling Department that is still in use today!
+        Practiced safe design, and executed good manufacturing practices. Was awarded highly dynamic
+        projects that involved several moving parts and control elements. Designed reliable industrial machines and prototypes 
+        for both human-interaction, and automation applications.
       highlights:
         - Remedied burden of constant ECNs in automotive industry using Solidworks API
         - Provided a shared vision between cross functional teams
@@ -108,9 +109,21 @@ experiences:
     technologies:
       - SolidWorks
       - Catia
+      - AutoCAD
       - eDrawings
       - Acrobat Adobe
       - MS Excel
+      - Roll bending
+      - Extrusion
+      - Pneumatics
+      - Hydraulics
+      - CNC Mills
+      - Yaskawa Robot
+      - Haas
+      - Brother
+      - Mazak
+      - Dies
+      - Trumpf laser
       - Visual Basic for Applications
 
   - role: Engineering Intern
@@ -157,11 +170,12 @@ experiences:
     technologies:
       - AutoDesk Inventor
       - iLogic
+      - Engineering drawings
 
   - role: Engineering Technicial
     subrole: Intern
     time: 2016 - 2016
-    company: Mihcigan Foam Products, Inc.
+    company: Michigan Foam Products, Inc.
     details: |
       As an Engineering Technician Intern at Michigan Foam Products, Inc., I contributed 
       significantly to the production process by employing innovative 'zero-scrap' techniques and low-cost tools 
@@ -240,59 +254,83 @@ skills:
       - name: SolidWorks
         level: 98%
       - name: AutoDesk Inventor
-        level: 60%
+        level: 75%
       - name: AutoCAD
-        level: 60%
+        level: 75%
       - name: Catia
-        level: 70%
+        level: 65%
       - name: eDrawings
         level: 90%
       - name: Adobe Acrobat
         level: 95%
       - name: OnShape
         level: 80%
+      - name: Fusion 360
+        level: 60%
   - category: Controls
     tools:
-      - name: RS Logix Studio 5000
-        level: 95%
-      - name: FactoryTalk View Studio Machine Edition
+      - name: FactoryTalk View Studio ME
+        level: 80%
+      - name: RS Logix / Studio 5000
         level: 90%
       - name: Ladder Logic
-        level: 98%
-      - name: PanelView Plus
         level: 90%
-      - name: Network Configuration
-        level: 30%
+      - name: PanelView Plus
+        level: 80%
+      - name: Networking
+        level: 40%
       - name: Process Sequence Bits
         level: 90%
       - name: Process Sequence Words
-        level: 80% 
+        level: 80%
+  - category: Soft Skills
+    tools:
+      - name: Problem Solving
+        level: 95%
+      - name: Communicating
+        level: 90%
+      - name: Leadership
+        level: 80%
+      - name: Mentoring
+        level: 85%
+      - name: Adaptability
+        level: 90%
+      - name: Critical Thinking
+        level: 100%
+      - name: Motivated
+        level: 90%
+      - name: Teamwork
+        level: 85%
+      - name: Creative
+        level: 95%
+      - name: Listening
+        level: 90%
   - category: Frontend
     tools:
-      - name: React
-        level: 50%
+      - name: HTML/CSS/SASS
+        level: 60%
       - name: Redux
-        level: 30%
+        level: 10%
       - name: JavaScript
         level: 25%
       - name: Node.js
         level: 10%
-      - name: HTML/CSS/SASS
-        level: 75%
+      - name: React
+        level: 35%
   - category: Backend
     tools:
       - name: Python
-        level: 80%
+        level: 70%
       - name: LabView
-        level: 50%
+        level: 55%
       - name: Java
-        level: 50%
+        level: 60%
       - name: Ruby
         level: 20%
       - name: C
-        level: 65%
+        level: 75%
       - name: C++
-        level: 15%
+        level: 30%
       - name: Solidity
         level: 30%
 
@@ -302,8 +340,11 @@ skills:
       - Inverse Kinematics
       - ATMega 328P Microcontroller
       - Xilinx
+      - LVDT
       - Transducers
       - VFD
+      - Vision systems
+      - Speed controllers
       - Gearboxes
       - Servos
       - Visual Studio Code
@@ -316,7 +357,8 @@ skills:
       - Tensile tesing
       - Pneumatics
       - Hydraulics
-      - Thermal and fluid systems
+      - Thermal systems
+      - Fluid systems
       - Material science
       - Biomedical materials
       - Manual Mill

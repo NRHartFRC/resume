@@ -12,7 +12,7 @@ const controlsdata = {
   ],
   datasets: [{
     label: 'Controls Skills',
-    data: [80,90,98,80,30,90,80],
+    data: [80,90,90,80,40,90,80],
     fill: true,
     backgroundColor: 'rgba(255, 255, 132, 0.2)',
     borderColor: 'rgb(255, 200, 0)',

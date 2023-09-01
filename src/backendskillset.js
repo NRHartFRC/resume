@@ -12,7 +12,7 @@ const backenddata = {
   ],
   datasets: [{
     label: 'Backend Skills',
-    data: [80,65,70,40,80,70,40],
+    data: [70,55,60,20,75,30,30],
     fill: true,
     backgroundColor: 'rgba(80, 200, 0, 0.2)',
     borderColor: 'rgb(0, 200, 200)',
