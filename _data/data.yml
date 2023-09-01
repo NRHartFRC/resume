@@ -100,30 +100,34 @@ experiences:
       desc: |
         Streamlined full-scope CAD workflow for SolidWorks for the Tooling Department that is still in use today!
         Practiced safe design, and executed good manufacturing practices. Was awarded highly dynamic
-        projects that involved several moving parts and control elements. Designed reliable industrial machines and prototypes 
-        for both human-interaction, and automation applications.
+        projects that involved several moving parts and control elements. Designed reliable production and prototype
+        machines/prototypes for both human-interaction, and automation applications.
       highlights:
         - Remedied burden of constant ECNs in automotive industry using Solidworks API
         - Provided a shared vision between cross functional teams
-        - Presented complex theoretical calculations and simulation results to support machine and tooling designs.
+        - Frequently completed jobs under-budget
+        - Presented complex theoretical calculations and simulation results to support machine / tool designs and implementations
     technologies:
       - SolidWorks
+      - FEA
       - Catia
       - AutoCAD
       - eDrawings
       - Acrobat Adobe
       - MS Excel
       - Roll bending
-      - Extrusion
+      - Extrusion die
       - Pneumatics
       - Hydraulics
       - CNC Mills
+      - CMM
       - Yaskawa Robot
       - Haas
       - Brother
       - Mazak
       - Dies
       - Trumpf laser
+      - Microsoft Office
       - Visual Basic for Applications
 
   - role: Engineering Intern
@@ -156,7 +160,7 @@ experiences:
       - Optical imaging
       - Micrometer & calipers
       - Minitab
-      - MS Word / Excel
+      - Microsoft Office
 
   - role: CAD Designer
     subrole: Intern Technical II
@@ -171,6 +175,7 @@ experiences:
       - AutoDesk Inventor
       - iLogic
       - Engineering drawings
+      - Microsoft Office
 
   - role: Engineering Technicial
     subrole: Intern
@@ -188,6 +193,7 @@ experiences:
       - Adhesives
       - Steam chamber
       - Block mold machine
+      - Microsoft Office
 
 # awards:
 #   - name: Award Name Lorem

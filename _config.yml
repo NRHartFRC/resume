@@ -6,7 +6,7 @@
 title: N. Rombach
 author: Nick Rombach
 tagline: Design Engineer # Short description for jekyll-seo-tag
-description: Resume for a design engineer, controls engineer, automation engineer, specializing in solidworks and PLC programming # Longer description for jekyll-seo-tag
+description: Resume for a design engineer, tooling engineer, controls engineer, automation engineer, specializing in solidworks and PLC programming # Longer description for jekyll-seo-tag
 
 url: "https://nrhartfrc.github.io" # sub a landing page
 baseurl: "/resume" # repo name
