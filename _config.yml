@@ -4,12 +4,12 @@
 
 # SEO plugin
 title: N. Rombach
-author: NicK Rombach
+author: Nick Rombach
 tagline: Design Engineer # Short description for jekyll-seo-tag
-description: Jekyll resume for Nicholas Rombach # Longer description for jekyll-seo-tag
+description: Resume for a design engineer, controls engineer, automation engineer, specializing in solidworks and PLC programming # Longer description for jekyll-seo-tag
 
-url: "https://nrhartfrc.github.io" #sub a landing page
-baseurl: "/resume" # change it according to your repository name
+url: "https://nrhartfrc.github.io" # sub a landing page
+baseurl: "/resume" # repo name
 
 # twitter:
 #   username: stevedoe123
@@ -19,8 +19,8 @@ social:
   links:
     # - https://twitter.com/stevedoe123
     # - https://www.facebook.com/stevedoe123
-    - https://www.linkedin.com/in/nicholasrombach
-    - https://github.com/NRHartFRC
+    - https://www.linkedin.com/in/nicholasrombach/
+    - https://github.com/NRHartFRC/
     # - https://keybase.io/stevedoe123
 
 google_site_verification: # Put your google verification tag here
@@ -33,7 +33,6 @@ theme_skin: turquoise # gray blue turquoise green berry red
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  # - jemoji
 
 # Sass/SCSS
 sass:

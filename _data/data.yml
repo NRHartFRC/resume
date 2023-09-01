@@ -8,8 +8,8 @@ header:
   email: rombachnicholas@gmail.com
   phone: (231) 233-8787
   website: https://oceanarobotics.github.io/OceanaFRC/
-  linkedin: nicholasrombach
-  github: 
+  linkedin: NicholasRombach
+  github: NRHartFRC
   gitlab:
   bitbucket:
   twitter: #""
@@ -27,8 +27,10 @@ header:
 
 interests:
   - name: Robotics 🦾
-    link: https://oceanarobotics.github.io/OceanaFRC/
+    link: # https://oceanarobotics.github.io/OceanaFRC/
   - name: Botany 🌹
+    link:
+  - name: Gardening 🐝
     link:
   - name: Programming 💻
     link:
@@ -46,16 +48,14 @@ interests:
     link:
   - name: Investing 💸
     link:
-  - name: Wakesurfing 🏄‍♂️
-    link:
-  - name: Skimboarding 🌊
-    link:
-  - name: Gardening 🐝
-    link:
-  - name: Climbing 🧗‍♂️
-    link:
-  - name: Hiking 🥾
-    link:
+  # - name: Wakesurfing 🏄‍♂️
+  #   link:
+  # - name: Skimboarding 🌊
+    # link:
+  # - name: Climbing 🧗‍♂️
+  #   link:
+  # - name: Hiking 🥾
+  #   link:
   
 
 summary: |
