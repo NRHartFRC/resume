@@ -63,8 +63,7 @@
   // Background-color and (when enabled) gradient
   &::before {
     position: absolute;
-    // top: calc(($line-height-base - $custom-control-indicator-size) / 2); //01SEP2023
-    top: calc(($line-height-base-rem - $custom-control-indicator-size) / 2); //01SEP2023
+    top: (($line-height-base - $custom-control-indicator-size) / 2);
     left: -$custom-control-gutter;
     display: block;
     width: $custom-control-indicator-size;
@@ -79,8 +78,7 @@
   // Foreground (icon)
   &::after {
     position: absolute;
-    // top: ($line-height-base - $custom-control-indicator-size) / 2; //01SEP2023
-    top: calc(($line-height-base-rem - $custom-control-indicator-size) / 2); //01SEP2023
+    top: (($line-height-base - $custom-control-indicator-size) / 2);
     left: -$custom-control-gutter;
     display: block;
     width: $custom-control-indicator-size;
