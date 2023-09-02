@@ -122,7 +122,7 @@ experiences:
       - Hydraulics
       - CNC Mills
       - CMM
-      - Yaskawa Robot
+      - Yaskawa robot
       - Haas
       - Brother
       - Mazak
@@ -159,6 +159,7 @@ experiences:
       - Ultrasonic welder
       - Laser welder
       - UV adhesive
+      - Fanuc
       - Optical imaging
       - Micrometer & calipers
       - Minitab
