@@ -18,9 +18,9 @@
         <div class="row">
           <div class="col-lg-9">
               {% include experience.html %}
-              <img src="{{ site.baseurl }}/assets/images/FIRST.png" style="max-width: 100px;" alt="FIRST">
-              <img src="{{ site.baseurl }}/assets/images/GV.png" style="max-width: 80px;" alt="GV">
-              <img src="{{ site.baseurl }}/assets/images/HHSPirates.png" style="max-width: 70px;" alt="HHS">
+              <img src="{{ site.baseurl }}/assets/images/FIRST.png" style="max-width: 100px; margin-bottom: 100px;" alt="FIRST">
+              <img src="{{ site.baseurl }}/assets/images/GV.png" style="max-width: 80px; margin-bottom: 100px;" alt="GV">
+              <img src="{{ site.baseurl }}/assets/images/HHSPirates.png" style="max-width: 65px; margin-bottom: 100px;" alt="HHS">
           </div>
           <div class="col-lg-3">
               {% include skills.html %}
@@ -30,7 +30,14 @@
               {% include interests.html %}
           </div>
         </div>
+
         <!--//row-->
+        <style>
+        div.canvas-container {
+          margin-bottom: 50px; /* Adjust the margin value as needed */
+        }
+        </style>
+
         <!doctype html>
         <html lang="en">
           <head>
@@ -39,11 +46,11 @@
           <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
           <body>
             <div class="centered">
-              <div><canvas id="designskillset"></canvas></div><br/>
-              <div><canvas id="controlsskillset"></canvas></div><br/>
-              <div><canvas id="softskillset"></canvas></div><br/>
-              <div><canvas id="frontendskillset"></canvas></div><br/>
-              <div><canvas id="backendskillset"></canvas></div><br/>
+              <div class="canvas-container"><canvas id="designskillset"></canvas></div><br/>
+              <div class="canvas-container"><canvas id="controlsskillset"></canvas></div><br/>
+              <div class="canvas-container"><canvas id="softskillset"></canvas></div><br/>
+              <div class="canvas-container"><canvas id="frontendskillset"></canvas></div><br/>
+              <div class="canvas-container"><canvas id="backendskillset"></canvas></div><br/>
 
               <script type="module" src="{{ site.baseurl }}/src/designskillset.js"></script>
               <script type="module" src="{{ site.baseurl }}/src/controlsskillset.js"></script>

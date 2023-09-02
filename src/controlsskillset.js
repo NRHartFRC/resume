@@ -16,7 +16,7 @@ const controlsdata = {
     fill: true,
     backgroundColor: 'rgba(255, 255, 132, 0.2)',
     borderColor: 'rgb(255, 200, 0)',
-    pointBackgroundColor: 'rgb(255, 99, 132)',
+    pointBackgroundColor: 'rgb(0, 99, 132)',
     pointBorderColor: '#fff',
     pointHoverBackgroundColor: '#fff',
     pointHoverBorderColor: 'rgb(255, 99, 132)'
@@ -27,9 +27,10 @@ const controlsconfig = {
   type: 'radar',
   data: controlsdata,
   options: {
-    maintainAspectRatio: true,
-    width: 200,
-    height: 200,
+    responsive: true,
+    maintainAspectRatio: false,
+    width: 600,
+    height: 600,
     scales: {
       r: {
         suggestedMin: 0, // Ensures the scale starts at 0
@@ -41,6 +42,17 @@ const controlsconfig = {
     elements: {
       line: {
         borderWidth: 3
+      }
+    },
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+            size: 24, // Adjust the font size as needed
+            style: 'normal', // Adjust the font style (normal, italic, oblique)
+            weight: 'bold' // Adjust the font weight (normal, bold)
+          }
+        }
       }
     }
   }

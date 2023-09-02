@@ -1,6 +1,5 @@
 
 # Resume for Nicholas Rombach
-
 Design Engineer, Tooling Engineer, Controls Engineer, Automation Engineer
 
 <!-- ## Chart.js

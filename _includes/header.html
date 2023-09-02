@@ -7,6 +7,17 @@
                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ site.author }}</h1>
                 <div class="title mb-3">{{ site.tagline }}</div>
                 <ul class="list-unstyled">
+                    
+                    {% if header.birthdate %}
+                    <script type="module" src="{{ site.baseurl }}/src/age.js"></script>
+                    <li class="mb-2">
+                        <li class="mb-2" style="color: rgba(255,255,255,.6);">
+                            <i class="far fa-user fa-fw mr-2" data-fa-transform="grow-3"></i>
+                            I am <span id="age" style="color: rgba(255,255,255,.6);" data-birthdate="{{ site.data.data.header.birthdate }}"></span> years old
+                        </li>                        
+                    </li>
+                    {% endif %}
+
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
                                 data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
                     <li><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
@@ -113,3 +124,11 @@
     </div>
     <!--//media-->
 </header>
+
+<script>
+    // Access the birthdate from the YAML front matter
+    const birthdate = '{{ site.data.data.header.birthdate }}';
+
+    // Set the birthdate as a data attribute on the element with ID 'age'
+    document.querySelector('#age').setAttribute('data-birthdate', birthdate);
+</script>

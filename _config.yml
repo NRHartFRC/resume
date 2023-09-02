@@ -4,7 +4,7 @@
 
 # SEO plugin
 title: N. Rombach
-author: Nick Rombach
+author: Nicholas Rombach
 tagline: Design Engineer # Short description for jekyll-seo-tag
 description: Resume for a design engineer, tooling engineer, controls engineer, automation engineer, specializing in solidworks and PLC programming # Longer description for jekyll-seo-tag
 
@@ -23,11 +23,11 @@ social:
     - https://github.com/NRHartFRC/
     # - https://keybase.io/stevedoe123
 
-google_site_verification: # Put your google verification tag here
+google_site_verification: d7fhemCkj1XcDCdssxNqG6LHnTwJF74PAMUv2ccTmIg # google verification tag content
 
 # End SEO
 
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
+# Style will be applied only after restarting the build or serve.
 theme_skin: turquoise # gray blue turquoise green berry red
 
 plugins:

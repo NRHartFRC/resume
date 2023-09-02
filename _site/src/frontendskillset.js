@@ -12,9 +12,9 @@ const frontenddata = {
     label: 'Frontend Skills',
     data: [60,10,25,10,30],
     fill: true,
-    backgroundColor: 'rgba(130, 0, 130, 0.2)',
-    borderColor: 'rgb(130, 0, 130)',
-    pointBackgroundColor: 'rgb(0, 0, 0)',
+    backgroundColor: 'rgba(255, 180, 20, 0.2)',
+    borderColor: 'rgb(255, 165, 0)',
+    pointBackgroundColor: 'rgb(100, 100, 100)',
     pointBorderColor: '#fff',
     pointHoverBackgroundColor: '#fff',
     pointHoverBorderColor: 'rgb(255, 99, 132)'
@@ -25,9 +25,10 @@ const frontendconfig = {
   type: 'radar',
   data: frontenddata,
   options: {
-    maintainAspectRatio: true,
-    width: 200,
-    height: 200,
+    responsive: true,
+    maintainAspectRatio: false,
+    width: 600,
+    height: 600,
     scales: {
       r: {
         suggestedMin: 0, // Ensures the scale starts at 0
@@ -39,6 +40,17 @@ const frontendconfig = {
     elements: {
       line: {
         borderWidth: 3
+      }
+    },
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+            size: 24, // Adjust the font size as needed
+            style: 'normal', // Adjust the font style (normal, italic, oblique)
+            weight: 'bold' // Adjust the font weight (normal, bold)
+          }
+        }
       }
     }
   }

@@ -19,7 +19,7 @@ const softdata = {
     fill: true,
     backgroundColor: 'rgba(130, 0, 130, 0.2)',
     borderColor: 'rgb(130, 0, 25)',
-    pointBackgroundColor: 'rgb(255, 99, 132)',
+    pointBackgroundColor: 'rgb(255, 0, 255)',
     pointBorderColor: '#fff',
     pointHoverBackgroundColor: '#fff',
     pointHoverBorderColor: 'rgb(255, 99, 132)'
@@ -31,9 +31,9 @@ const softconfig = {
   data: softdata,
   options: {
     responsive: true,
-    maintainAspectRatio: true,
-    width: 200,
-    height: 200,
+    maintainAspectRatio: false,
+    width: 600,
+    height: 600,
     scales: {
       r: {
         suggestedMin: 0, // Ensures the scale starts at 0
@@ -45,6 +45,17 @@ const softconfig = {
     elements: {
       line: {
         borderWidth: 3
+      }
+    },
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+            size: 24, // Adjust the font size as needed
+            style: 'normal', // Adjust the font style (normal, italic, oblique)
+            weight: 'bold' // Adjust the font weight (normal, bold)
+          }
+        }
       }
     }
   }

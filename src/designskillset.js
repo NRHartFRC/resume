@@ -29,9 +29,9 @@ const designconfig = {
   data: designdata,
   options: {
     responsive: true,
-    maintainAspectRatio: true,
-    width: 200,
-    height: 200,
+    maintainAspectRatio: false,
+    width: 600,
+    height: 600,
     scales: {
       r: {
         suggestedMin: 0, // Ensures the scale starts at 0
@@ -43,6 +43,17 @@ const designconfig = {
     elements: {
       line: {
         borderWidth: 3
+      }
+    },
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+            size: 24, // Adjust the font size as needed
+            style: 'normal', // Adjust the font style (normal, italic, oblique)
+            weight: 'bold' // Adjust the font weight (normal, bold)
+          }
+        }
       }
     }
   }

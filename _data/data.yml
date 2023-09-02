@@ -10,12 +10,13 @@ header:
   website: https://oceanarobotics.github.io/OceanaFRC/
   linkedin: NicholasRombach
   github: NRHartFRC
-  gitlab:
-  bitbucket:
-  twitter: #""
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
+  # gitlab:
+  # bitbucket:
+  # twitter: #""
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  birthdate: '1996-07-01'
 
 # languages:
 #   - idiom: English
@@ -86,8 +87,8 @@ experiences:
     details: |
       As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal roll 
       in conceptualizing, designing, and implementing advanced production and prototype 
-      machinery and fixtures. Leveraging my expertise in engineering and automation, I delivered 
-      exceptional contributions that spanned the entire product lifecycle. I successfully combined 
+      machines and fixtures. Leveraging my expertise in engineering and automation, I delivered 
+      exceptional contributions that will span the entire product lifecycle. I successfully combined 
       theoretical prowess with hands-on manufacturing skills to drive innovation and efficiency 
       in various projects. Notable accomplishments include:
         - Pioneered Automated Bill of Materials using Visual Basic and SolidWorks API
@@ -103,7 +104,7 @@ experiences:
         projects that involved several moving parts and control elements. Designed reliable production and prototype
         machines/prototypes for both human-interaction, and automation applications.
       highlights:
-        - Remedied burden of constant ECNs in automotive industry using Solidworks API
+        - Remedied burden of constant ECNs in automotive industry using SolidWorks API
         - Provided a shared vision between cross functional teams
         - Frequently completed jobs under-budget
         - Presented complex theoretical calculations and simulation results to support machine / tool designs and implementations
@@ -136,7 +137,7 @@ experiences:
     company: Viant Medical
     details: |
       As an Engineering Intern at Viant Medical's medical device manufacturing facility, I contributed to the
-      seamless introduction of new products into the market by authoring åcomprehensive work instructions
+      seamless introduction of new products into the market by authoring comprehensive work instructions
       and equipment operating guidelines. My role involved meticulous adherence to quality standards and
       regulations, including ISO 13485. In addition, I played a key role in enhancing product development
       processes through innovative prototyping methods and rigorous test method validations.
@@ -150,7 +151,7 @@ experiences:
     achievements:
       desc: |
         As part of the medical device launch team, and in compliance with industry standard, my team and I successfully
-        launched a novel, FDA approved, closed system transfer device for hazardous of chemotherapy drugs. I also completed
+        launched a novel, FDA approved, closed system transfer device for hazardous chemotherapy drugs. I also completed
         Lean Academy simulations.
     technologies:
       - Tensile tester
@@ -167,7 +168,7 @@ experiences:
     time: 2017 - 2017
     company: Johnson Controls / Hart & Cooley, Inc.
     details: |
-      As an Intern Technical II at Johnson Controls’ Hart & Cooley, Inc., I played a vital role in the creation and design
+      As an Intern Technical II at Johnson Controls / Hart & Cooley, Inc., I played a vital role in the creation and design
       of HVAC equipment, contributing to the company's commitment to precision and customer satisfaction. Leveraging my skills
       in engineering and CAD software, I meticulously crafted both 2D and 3D models, ensuring they aligned with exact customer
       specifications for out-of-state assembly. Key responsibilities and achievements include:
@@ -175,6 +176,7 @@ experiences:
       - AutoDesk Inventor
       - iLogic
       - Engineering drawings
+      - Arduino
       - Microsoft Office
 
   - role: Engineering Technicial
@@ -183,9 +185,9 @@ experiences:
     company: Michigan Foam Products, Inc.
     details: |
       As an Engineering Technician Intern at Michigan Foam Products, Inc., I contributed 
-      significantly to the production process by employing innovative 'zero-scrap' techniques and low-cost tools 
+      significantly to the production process by employing innovative 'zero-scrap' techniques and low-cost part routing
       to manufacture expanded polystyrene foam. My role was to route parts throughout the manufacturing plant while
-      ensuring efficient material removal and assembly. Key responsibilities and achievements include:
+      ensuring both efficient material removal, and assembly. Key responsibilities and achievements include:
     technologies:
       - SolidWorks
       - NiCr wire
@@ -330,11 +332,11 @@ skills:
       - name: LabView
         level: 55%
       - name: Java
-        level: 60%
+        level: 55%
       - name: Ruby
         level: 20%
       - name: C
-        level: 75%
+        level: 60%
       - name: C++
         level: 30%
       - name: Solidity
@@ -344,12 +346,12 @@ skills:
     tools:
       - FANUC teach pendant
       - Inverse Kinematics
-      - ATMega 328P Microcontroller
-      - Xilinx
+      - Tooling
       - LVDT
       - Transducers
       - VFD
       - Vision systems
+      - Xilinx
       - Speed controllers
       - Gearboxes
       - Servos
