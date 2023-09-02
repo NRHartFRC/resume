@@ -60,10 +60,10 @@ interests:
   
 
 summary: |
-  Results-oriented Design Engineer with a passion for problem solving, innovation and automation.
-  Seeking a dynamic role in automation or design engineering to leverage a comprehensive
-  skill set spanning multiple engineering disciplines. Backed by a solid education and a
-  track record of impactful contributions in both academic and professional settings.
+  Results-oriented Design Engineer with a passion for problem solving, innovation, and automation. 
+  Seeking a dynamic role in automation or design engineering to leverage a comprehensive skill set 
+  and exceptional acumen spanning multiple engineering disciplines. Backed by a solid education and 
+  a track record of impactful contributions in both academic and professional settings.
   
 
 education:
@@ -85,7 +85,7 @@ experiences:
     time: 2019 - 2021
     company: UACJ Automotive Whitehall Industries
     details: |
-      As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal roll 
+      As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal role 
       in conceptualizing, designing, and implementing advanced production and prototype 
       machines and fixtures. Leveraging my expertise in engineering and automation, I delivered 
       exceptional contributions that will span the entire product lifecycle. I successfully combined 
@@ -117,7 +117,7 @@ experiences:
       - Acrobat Adobe
       - MS Excel
       - Roll bending
-      - Extrusion die
+      - Extrusion press
       - Pneumatics
       - Hydraulics
       - CNC Mills
@@ -152,7 +152,8 @@ experiences:
       desc: |
         As part of the medical device launch team, and in compliance with industry standard, my team and I successfully
         launched a novel, FDA approved, closed system transfer device for hazardous chemotherapy drugs. I also completed
-        Lean Academy simulations.
+        Lean Academy simulations. I used scrap materials to develop a test method procedure for evaluating hypotube needle retention.
+        Vetted PLC sequence for an in-line manufacturing cell engendering: needle delivery, UV adhesive, and subcomponent assebmly.
     technologies:
       - Tensile tester
       - Ultrasonic welder
@@ -324,15 +325,15 @@ skills:
       - name: Node.js
         level: 10%
       - name: React
-        level: 35%
+        level: 25%
   - category: Backend
     tools:
       - name: Python
         level: 70%
       - name: LabView
-        level: 55%
+        level: 50%
       - name: Java
-        level: 55%
+        level: 45%
       - name: Ruby
         level: 20%
       - name: C
@@ -341,6 +342,8 @@ skills:
         level: 30%
       - name: Solidity
         level: 30%
+      - name: VBA
+        level: 40%
 
   - category: others
     tools:

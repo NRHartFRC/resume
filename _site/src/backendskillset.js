@@ -8,11 +8,12 @@ const backenddata = {
     'Ruby',
     'C',
     'C++',
-    'Solidity'
+    'Solidity',
+    'VBA'
   ],
   datasets: [{
     label: 'Backend Skills',
-    data: [70,55,55,20,60,30,30],
+    data: [70,50,45,20,60,30,30,40],
     fill: true,
     backgroundColor: 'rgba(80, 200, 0, 0.2)',
     borderColor: 'rgb(0, 200, 200)',
