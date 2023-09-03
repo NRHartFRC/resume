@@ -60,8 +60,46 @@
     <![endif]-->
 </head>
 
+<script>
+  function updateProgressBar() {
+    const progressBar = document.getElementById('progress-bar');
+    if (progressBar) {
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollTop = window.scrollY;
+      const progress = (scrollTop / scrollHeight) * 100;
+      progressBar.style.width = progress + '%';
+    }
+  }
 
+  // Listen for scroll events and update the progress bar
+  window.addEventListener('scroll', updateProgressBar);
+  
+  // Call the function initially to set the progress bar's initial width
+  updateProgressBar();
+</script>
 <body>
+  <!-- progress bar -->
+  <style>
+  #progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px; /* Adjust the height of the progress bar */
+    background-color: rgb(0, 141, 146); /* Background color of the progress bar container */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  #progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #00ff04; /* Color of the progress bar */
+    transition: width 0.3s; /* Smooth animation for progress */
+  }
+  </style>
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
   <article class="resume-wrapper text-center position-relative">
     <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
       
@@ -78,8 +116,7 @@
                     <script type="module" src="/resume/src/age.js"></script>
                     <li class="mb-2">
                         <li class="mb-2" style="color: rgba(255,255,255,.6);">
-                            <i class="far fa-user fa-fw mr-2" data-fa-transform="grow-3"></i>
-                            I am <span id="age" style="color: rgba(255,255,255,.6);" data-birthdate="1996-07-01"></span> years old
+                            <i class="far fa-user fa-fw mr-2" data-fa-transform="grow-3"></i>I am <span id="age" style="color: rgba(255,255,255,.6);" data-birthdate="1996-07-01"></span> years old
                         </li>                        
                     </li>
                     
@@ -87,6 +124,7 @@
                     <li class="mb-2"><a href="mailto:rombachnicholas@gmail.com"><i class="far fa-envelope fa-fw mr-2"
                                 data-fa-transform="grow-3"></i>rombachnicholas@gmail.com</a></li>
                     <li><a href="tel:(231) 233-8787"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>(231) 233-8787</a></li>
+                    
                 </ul>
             </div>
             <!--//primary-info-->
@@ -101,7 +139,7 @@
                             NicholasRombach
                         </a>
                     </li>
-                
+                                
                 
                     <li class="mb-3">
                         <a href="https://github.com/NRHartFRC">
@@ -111,15 +149,15 @@
                             NRHartFRC
                         </a>
                     </li>
+                <!-- 
                 
                 
                 
                 
                 
+                 -->
                 
-                
-                
-                    <li class="mb-3">
+                    <li class="mb-3 resume-social-web">
                         <a href="https://oceanarobotics.github.io/OceanaFRC/">
                             <span class="fa-container text-center mr-2">
                                 <i class="fas fa-globe"></i>
@@ -128,6 +166,15 @@
                         </a>
                     </li>
                 
+
+                <li class="mb-3">
+                    <span class="fa-container text-center mr-2">
+                        <i class="fas fa-arrow-circle-down fa-fw"></i>
+                    </span>
+                    <a href="javascript:void(0);" onclick="printResume('/resume/src/NicholasRombachResume_RevI.pdf')">Print Resume</a> | 
+                    <a href="/resume/src/NicholasRombachResume_RevI.docx" download>Download Resume</a>
+                </li>
+
                 </ul>
             </div>
             <!--//secondary-info-->
@@ -143,6 +190,20 @@
 
     // Set the birthdate as a data attribute on the element with ID 'age'
     document.querySelector('#age').setAttribute('data-birthdate', birthdate);
+</script>
+
+<script>
+    function printResume(pdfUrl) {
+        var win = window.open(pdfUrl, '_blank');
+        if (win) {
+            // win.print();
+            win.onafterprint = function() {
+                win.close();
+            };
+        } else {
+            alert("Please allow pop-ups for printing.");
+        }
+    }
 </script>
 
       <div class="resume-body p-5">
@@ -326,7 +387,7 @@ machines/prototypes for both human-interaction, and automation applications.
                         <h3 class="resume-position-title font-weight-bold mb-1">
                             Engineering Intern
                             
-                            <small class="text-muted">(New Product Launch Team)</small>
+                            <small class="text-muted">(Product Launch Team)</small>
                             
                         </h3>
                         <div class="resume-company-name ml-auto">Viant Medical</div>
@@ -539,9 +600,9 @@ ensuring both efficient material removal, and assembly. Key responsibilities and
 <!--//experience-section-->
 
 
+              <img src="/resume/assets/images/NR.png" style="max-width: 65px; margin-bottom: 100px;" alt="NR">
               <img src="/resume/assets/images/FIRST.png" style="max-width: 100px; margin-bottom: 100px;" alt="FIRST">
-              <img src="/resume/assets/images/GV.png" style="max-width: 80px; margin-bottom: 100px;" alt="GV">
-              <img src="/resume/assets/images/HHSPirates.png" style="max-width: 65px; margin-bottom: 100px;" alt="HHS">
+              <img src="/resume/assets/images/HHSPirates.png" style="max-width: 60px; margin-bottom: 100px;" alt="HHS">
           </div>
           <div class="col-lg-3">
               
@@ -732,7 +793,7 @@ ensuring both efficient material removal, and assembly. Key responsibilities and
                     <div class="resume-skill-name">Leadership</div>
                     <div class="progress resume-progress">
                         <div class="progress-bar theme-progress-bar-dark" role="progressbar"
-                            style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+                            style="width: 90%" aria-valuenow="25" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
                 </li>
@@ -1131,7 +1192,6 @@ ensuring both efficient material removal, and assembly. Key responsibilities and
             </div>
           </body>
         </html>
-        <!-- designskillset -->
       </div>
     </div>
   </article>

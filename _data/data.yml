@@ -17,6 +17,7 @@ header:
   # codewars:
   # goodreads: # Number-Username, e.g. 123456-alandoe
   birthdate: '1996-07-01'
+  resume: true
 
 # languages:
 #   - idiom: English
@@ -132,7 +133,7 @@ experiences:
       - Visual Basic for Applications
 
   - role: Engineering Intern
-    subrole: New Product Launch Team
+    subrole: Product Launch Team
     time: 2018 - 2019
     company: Viant Medical
     details: |
@@ -300,7 +301,7 @@ skills:
       - name: Communicating
         level: 90%
       - name: Leadership
-        level: 80%
+        level: 90%
       - name: Mentoring
         level: 85%
       - name: Adaptability

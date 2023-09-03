@@ -15,7 +15,7 @@ const softdata = {
   ],
   datasets: [{
     label: 'Soft Skills',
-    data: [95,90,80,85,90,100,90,85,95,90],
+    data: [95,90,90,85,90,100,90,85,95,90],
     fill: true,
     backgroundColor: 'rgba(130, 0, 130, 0.2)',
     borderColor: 'rgb(130, 0, 25)',

@@ -9,7 +9,9 @@
     @each $prop, $abbrev in (margin: m, padding: p) {
       @each $size, $length in $spacers {
 
-        .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+        // .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+        // resume-body p-5 replaced above 3rem -> 2rem _variables.scss
+        .#{$abbrev}#{$infix}-#{$size} { #{$prop}: 1rem !important; }
         .#{$abbrev}t#{$infix}-#{$size},
         .#{$abbrev}y#{$infix}-#{$size} {
           #{$prop}-top: $length !important;

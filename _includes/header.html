@@ -12,8 +12,7 @@
                     <script type="module" src="{{ site.baseurl }}/src/age.js"></script>
                     <li class="mb-2">
                         <li class="mb-2" style="color: rgba(255,255,255,.6);">
-                            <i class="far fa-user fa-fw mr-2" data-fa-transform="grow-3"></i>
-                            I am <span id="age" style="color: rgba(255,255,255,.6);" data-birthdate="{{ site.data.data.header.birthdate }}"></span> years old
+                            <i class="far fa-user fa-fw mr-2" data-fa-transform="grow-3"></i>I am <span id="age" style="color: rgba(255,255,255,.6);" data-birthdate="{{ site.data.data.header.birthdate }}"></span> years old
                         </li>                        
                     </li>
                     {% endif %}
@@ -21,6 +20,7 @@
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
                                 data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
                     <li><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                    
                 </ul>
             </div>
             <!--//primary-info-->
@@ -35,7 +35,7 @@
                             {{ header.linkedin }}
                         </a>
                     </li>
-                {% endif %}
+                {% endif %}                
                 {% if header.github %}
                     <li class="mb-3">
                         <a href="https://github.com/{{ header.github }}">
@@ -45,7 +45,7 @@
                             {{ header.github }}
                         </a>
                     </li>
-                {% endif %}
+                <!-- {% endif %}
                 {% if header.gitlab %}
                     <li class="mb-3">
                         <a href="https://gitlab.com/{{ header.gitlab }}">
@@ -105,9 +105,9 @@
                             {{ header.goodreads }}
                         </a>
                     </li>
-                {% endif %}
+                {% endif %} -->
                 {% if header.website %}
-                    <li class="mb-3">
+                    <li class="mb-3 resume-social-web">
                         <a href="{{ header.website }}">
                             <span class="fa-container text-center mr-2">
                                 <i class="fas fa-globe"></i>
@@ -116,6 +116,15 @@
                         </a>
                     </li>
                 {% endif %}
+
+                <li class="mb-3">
+                    <span class="fa-container text-center mr-2">
+                        <i class="fas fa-arrow-circle-down fa-fw"></i>
+                    </span>
+                    <a href="javascript:void(0);" onclick="printResume('{{ site.baseurl }}/src/NicholasRombachResume_RevI.pdf')">Print Resume</a> | 
+                    <a href="{{ site.baseurl }}/src/NicholasRombachResume_RevI.docx" download>Download Resume</a>
+                </li>
+
                 </ul>
             </div>
             <!--//secondary-info-->
@@ -131,4 +140,18 @@
 
     // Set the birthdate as a data attribute on the element with ID 'age'
     document.querySelector('#age').setAttribute('data-birthdate', birthdate);
+</script>
+
+<script>
+    function printResume(pdfUrl) {
+        var win = window.open(pdfUrl, '_blank');
+        if (win) {
+            // win.print();
+            win.onafterprint = function() {
+                win.close();
+            };
+        } else {
+            alert("Please allow pop-ups for printing.");
+        }
+    }
 </script>
