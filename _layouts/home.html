@@ -18,10 +18,8 @@
       progressBar.style.width = progress + '%';
     }
   }
-
   // Listen for scroll events and update the progress bar
   window.addEventListener('scroll', updateProgressBar);
-  
   // Call the function initially to set the progress bar's initial width
   updateProgressBar();
 </script>
@@ -68,40 +66,29 @@
               {% include interests.html %}
           </div>
         </div>
-
+        
         <!--//row-->
         <style>
         div.canvas-container {
           margin-bottom: 50px; /* Adjust the margin value as needed */
         }
         </style>
-
-        <!doctype html>
-        <html lang="en">
-          <head>
-            <title>Chart.js</title>
-          </head>
-          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-          <body>
-            <div class="centered">
-              <div class="canvas-container"><canvas id="designskillset"></canvas></div><br/>
-              <div class="canvas-container"><canvas id="controlsskillset"></canvas></div><br/>
-              <div class="canvas-container"><canvas id="softskillset"></canvas></div><br/>
-              <div class="canvas-container"><canvas id="frontendskillset"></canvas></div><br/>
-              <div class="canvas-container"><canvas id="backendskillset"></canvas></div><br/>
-
-              <script type="module" src="{{ site.baseurl }}/src/designskillset.js"></script>
-              <script type="module" src="{{ site.baseurl }}/src/controlsskillset.js"></script>
-              <script type="module" src="{{ site.baseurl }}/src/softskillset.js"></script>
-              <script type="module" src="{{ site.baseurl }}/src/frontendskillset.js"></script>
-              <script type="module" src="{{ site.baseurl }}/src/backendskillset.js"></script>
-            </div>
-          </body>
-        </html>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <div class="centered">
+          <div class="canvas-container"><canvas id="designskillset"></canvas></div><br/>
+          <div class="canvas-container"><canvas id="controlsskillset"></canvas></div><br/>
+          <div class="canvas-container"><canvas id="softskillset"></canvas></div><br/>
+          <div class="canvas-container"><canvas id="frontendskillset"></canvas></div><br/>
+          <div class="canvas-container"><canvas id="backendskillset"></canvas></div><br/>
+          <script type="module" src="{{ site.baseurl }}/src/designskillset.js"></script>
+          <script type="module" src="{{ site.baseurl }}/src/controlsskillset.js"></script>
+          <script type="module" src="{{ site.baseurl }}/src/softskillset.js"></script>
+          <script type="module" src="{{ site.baseurl }}/src/frontendskillset.js"></script>
+          <script type="module" src="{{ site.baseurl }}/src/backendskillset.js"></script>
+        </div>
       </div>
     </div>
   </article>
-
   {% include footer.html %}
 </body>
 
