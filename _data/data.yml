@@ -74,24 +74,39 @@ interests:
 
 summary: |
   Results-oriented Design Engineer with a passion for problem solving, innovation, and automation. 
-  Seeking a dynamic role in automation or design engineering to leverage a comprehensive skill set 
+  Seeking a dynamic role in automation, tooling, or design engineering to leverage a comprehensive skill set 
   and exceptional acumen spanning multiple engineering disciplines. Backed by a solid education and 
   a track record of impactful contributions in both academic and professional settings.
   
-
 education:
   - degree: B.S.E. Product Design & Manufacturing Engineering
     university: Grand Valley State University
+    abet: Padnos College of Engineering and Computing, ABET
     time: 2014 - 2019
-    details: |
-      Padnos College of Engineering and Computing
+    courses: |
         - Materials Science
         - Biomedical Materials
+        - Principles of Physics I & II
+        - Lin Algebra and Diff Equas
+        - Statistical Modeling for EGR
         - Materials for Energy Storage
         - Manufacturing Control Systems
         - Dynamic System Model/Control
         - Robotic Systems Engineering
         - Thermal and Fluid Systems
+        - Manufacturing Processes
+        - Mechanics and Machines
+        - Circuit Analysis I
+        - Digital Systems
+  - degree: B.S.E. Concurrent Enrollment
+    university: Grand Rapids Community College
+    time: 2017 - 2018
+  - degree: HS Dual Enrollment
+    university: Muskegon Community College
+    time: 2013 - 2014
+  - degree: HS Dual Enrollment
+    university: West Shore Community College
+    time: 2012 - 2014
 
 experiences:
   - role: Design Engineer
@@ -114,14 +129,14 @@ experiences:
     achievements:
       desc: |
         Streamlined full-scope CAD workflow for SolidWorks for the Tooling Department that is still in use today!
-        Practiced safe design, and executed good manufacturing practices. Was awarded highly dynamic
+        Practiced safe design (zero recorded incidents), and executed good manufacturing practices. Was awarded highly dynamic
         projects that involved several moving parts and control elements. Designed reliable production and prototype
         machines/prototypes for both human-interaction, and automation applications.
       highlights:
         - Remedied burden of constant ECNs in automotive industry using SolidWorks API
         - Provided a shared vision between cross functional teams
-        - Frequently completed jobs under-budget
-        - Presented complex theoretical calculations and simulation results to support machine / tool designs and implementations
+        - Worked well as both an independent and as a teammate
+        - Frequently completed jobs under-budget and on-time
     technologies:
       - SolidWorks
       - FEA
@@ -133,11 +148,12 @@ experiences:
       - Acrobat Adobe
       - Dies
       - Roll bending
-      - Laser marking
-      - Dot peening
+      - Part marking
+      - Design for Assembly
+      - Design for Manufacturing
       - Sensors
       - Actuators
-      - Cameras
+      - Vision Systems
       - Extrusion press
       - Pneumatics
       - Hydraulics
@@ -148,7 +164,7 @@ experiences:
       - Brother
       - Mazak
       - Trumpf laser
-      - Microsoft Office
+      - MS Office
       - Visual Basic for Applications
 
   - role: Engineering Intern
@@ -171,20 +187,21 @@ experiences:
     achievements:
       desc: |
         As part of the medical device launch team, and in compliance with industry standard, my team and I successfully
-        launched a novel, FDA approved, closed system transfer device for hazardous chemotherapy drugs. I also completed
+        launched a novel, FDA-approved, closed system transfer device for hazardous chemotherapy drugs. I also completed
         Lean Academy simulations. I used scrap materials to develop a test method procedure for evaluating hypotube needle retention.
-        Vetted PLC sequence for an in-line manufacturing cell engendering: needle delivery, UV adhesive, and subcomponent assebmly.
+        Vetted PLC sequence for an in-line manufacturing cell, embodying: needle acceptance, UV adhesive operation, and subcomponent assembly.
     technologies:
       - Tensile tester
       - Ultrasonic welder
+      - Custom tooling
       - Laser welder
       - UV adhesive
-      - Fanuc
+      - Fanuc robot
       - Induction heating
       - Optical imaging
       - Micrometer & calipers
       - Minitab
-      - Microsoft Office
+      - MS Office
 
   - role: CAD Designer
     subrole: Intern Technical II
@@ -194,13 +211,25 @@ experiences:
       As an Intern Technical II at Johnson Controls / Hart & Cooley, Inc., I played a vital role in the creation and design
       of HVAC equipment, contributing to the company's commitment to precision and customer satisfaction. Leveraging my skills
       in engineering and CAD software, I meticulously crafted both 2D and 3D models, ensuring they aligned with exact customer
-      specifications for out-of-state assembly. Key responsibilities and achievements include:
+      specifications before shipping for out-of-state assembly. Key responsibilities and achievements include:
+      - Compiled / scraped data programmatically
+      - Created 2D and 3D models using AutoDesk Inventor
+      - Developed engineering drawings for sheet metal production
+      - Aided in wireless vent toggle prototype using C programming
+    achievements:
+      desc: |
+        I designed flue gas exhaust systems, roof curbs, and roof accessories for the HVAC industry. Engineering drawing packets 
+        were created, reviewed, and realeased well prior to due dates. Helped design a control interface for an arduino-driven vent toggle.
     technologies:
       - AutoDesk Inventor
       - iLogic
       - Engineering drawings
+      - Sheet metal
+      - Design for Assembly
+      - Design for Manufacturing
+      - C programming
       - Arduino
-      - Microsoft Office
+      - MS Office
 
   - role: Engineering Technicial
     subrole: Intern
@@ -211,14 +240,24 @@ experiences:
       significantly to the production process by employing innovative 'zero-scrap' techniques and low-cost part routing
       to manufacture expanded polystyrene foam. My role was to route parts throughout the manufacturing plant while
       ensuring both efficient material removal, and assembly. Key responsibilities and achievements include:
+      - Routed parts through manufacturing plant
+      - Conducted time studies
+      - Prepared work instructions
+    achievements:
+      desc: |
+        I used SolidWorks to emulate CNC programs for producing expanded polystyrene foam in a production environment
+        while concentrating on reducing waste. Wrote preventative maintenance logs for block mold machine, steam chamber, 
+        hotwire stations, and CNC hotwire machine. Calculated process flow parameters for different jobs.
     technologies:
       - SolidWorks
       - NiCr wire
       - CNC hotwire
+      - Design for Assembly
+      - Design for Manufacturing
       - Adhesives
       - Steam chamber
       - Block mold machine
-      - Microsoft Office
+      - MS Office
 
 # awards:
 #   - name: Award Name Lorem

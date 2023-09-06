@@ -8,7 +8,9 @@
             <li class="mb-2">
                 <div class="resume-degree font-weight-bold">{{ graduation.degree }}</div>
                 <div class="resume-degree-org">{{ graduation.university }}</div>
+                <div class="resume-degree-abet">{{ graduation.abet }}</div>
                 <div class="resume-degree-time">{{ graduation.time }}</div>
+                <div class="resume-degree-courses">{{ graduation.courses | markdownify }}</div>
             </li>
             {% endfor %}
         </ul>
