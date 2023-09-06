@@ -4,20 +4,20 @@
 
 header:
   # Profile information
-  avatar: CoachMentorNR.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: NRProfile.png #CoachMentorNR.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   email: rombachnicholas@gmail.com
   phone: (231) 233-8787
   website: https://oceanarobotics.github.io/OceanaFRC/
   linkedin: NicholasRombach
   github: NRHartFRC
+  birthdate: '1996-07-01'
+  resume: true
   # gitlab:
   # bitbucket:
   # twitter: #""
   # stack-overflow: # Number/Username, e.g. 123456/alandoe
   # codewars:
   # goodreads: # Number-Username, e.g. 123456-alandoe
-  birthdate: '1996-07-01'
-  resume: true
 
 # languages:
 #   - idiom: English
@@ -40,6 +40,8 @@ interests:
     link:
   - name: Running 🏃‍♂️
     link:
+  - name: Reading 📖 
+    link:
   - name: Blockchain / Web 3.0 🌐
     link:
   - name: Smart Contracts 📱
@@ -50,10 +52,20 @@ interests:
     link:
   - name: Investing 💸
     link:
+  - name: Electronics 📡
+    link:
+  - name: Vintage Cars 🚗
+    link:
+  - name: Cybersecurity 🛡️
+    link:
+  - name: Aritificial Intelligence 🧠
+    link:
+  - name: Modeling & Simulation 📊
+    link:
   # - name: Wakesurfing 🏄‍♂️
   #   link:
   # - name: Skimboarding 🌊
-    # link:
+  #   link:
   # - name: Climbing 🧗‍♂️
   #   link:
   # - name: Hiking 🥾
@@ -88,16 +100,17 @@ experiences:
     details: |
       As a Design Engineer at UACJ Automotive Whitehall Industries, I played a pivotal role 
       in conceptualizing, designing, and implementing advanced production and prototype 
-      machines and fixtures. Leveraging my expertise in engineering and automation, I delivered 
-      exceptional contributions that will span the entire product lifecycle. I successfully combined 
+      machines and fixtures. Leveraging my expertise in engineering and automation, I have made 
+      exceptional contributions that will enhance multiple product lifecycles. I successfully combined 
       theoretical prowess with hands-on manufacturing skills to drive innovation and efficiency 
       in various projects. Notable accomplishments include:
         - Pioneered Automated Bill of Materials using Visual Basic and SolidWorks API
         - Presented theoretical calculations and simulation results for proposed designs
         - Manufactured precision tooling parts via manual and CNC milling machines
         - Led end-to-end design of production/prototype machines and fixtures
-        - Value Added / Value Engineering (VAVE)
-        - Lean Manufacturing
+        - Provided IT support and consulted fellow engineers
+        - Practiced value added / value engineering (VAVE)
+        - Practiced lean manufacturing
     achievements:
       desc: |
         Streamlined full-scope CAD workflow for SolidWorks for the Tooling Department that is still in use today!
@@ -112,22 +125,28 @@ experiences:
     technologies:
       - SolidWorks
       - FEA
+      - APQP
       - Catia
+      - GD&T
       - AutoCAD
       - eDrawings
       - Acrobat Adobe
-      - MS Excel
+      - Dies
       - Roll bending
+      - Laser marking
+      - Dot peening
+      - Sensors
+      - Actuators
+      - Cameras
       - Extrusion press
       - Pneumatics
       - Hydraulics
-      - CNC Mills
       - CMM
       - Yaskawa robot
+      - Fanuc robot
       - Haas
       - Brother
       - Mazak
-      - Dies
       - Trumpf laser
       - Microsoft Office
       - Visual Basic for Applications
@@ -161,6 +180,7 @@ experiences:
       - Laser welder
       - UV adhesive
       - Fanuc
+      - Induction heating
       - Optical imaging
       - Micrometer & calipers
       - Minitab
@@ -289,7 +309,7 @@ skills:
       - name: PanelView Plus
         level: 80%
       - name: Networking
-        level: 40%
+        level: 55%
       - name: Process Sequence Bits
         level: 90%
       - name: Process Sequence Words
@@ -319,7 +339,7 @@ skills:
   - category: Frontend
     tools:
       - name: HTML/CSS/SASS
-        level: 60%
+        level: 70%
       - name: Redux
         level: 10%
       - name: JavaScript

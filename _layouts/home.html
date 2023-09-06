@@ -54,9 +54,15 @@
         <div class="row">
           <div class="col-lg-9">
               {% include experience.html %}
-              <img src="{{ site.baseurl }}/assets/images/NR.png" style="max-width: 65px; margin-bottom: 100px;" alt="NR">
-              <img src="{{ site.baseurl }}/assets/images/FIRST.png" style="max-width: 100px; margin-bottom: 100px;" alt="FIRST">
-              <img src="{{ site.baseurl }}/assets/images/HHSPirates.png" style="max-width: 60px; margin-bottom: 100px;" alt="HHS">
+              <div class="image-container-row">
+                <img src="{{ site.baseurl }}/assets/images/NR.png" style="max-width: 65px; margin-bottom: 25px;" alt="NR">
+                <img src="{{ site.baseurl }}/assets/images/FIRST.png" style="max-width: 100px; margin-bottom: 25px;" alt="FIRST">
+                <img src="{{ site.baseurl }}/assets/images/HHSPirates.png" style="max-width: 60px; margin-bottom: 25px;" alt="HHS"><br>
+              </div>
+              <div class="image-container"> <!-- styled in _image.scss -->
+                <img src="{{ site.baseurl }}/assets/images/2223FRCCoA-NRMentor.png" class="image" alt="2223FRCMentor">
+                <!-- <img src="{{ site.baseurl }}/assets/images/2324FRCCoA-NRCoach.png" class="image" alt="2324FRCCoach"> -->
+              </div>              
           </div>
           <div class="col-lg-3">
               {% include skills.html %}

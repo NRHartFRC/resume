@@ -34,3 +34,34 @@
     background-size: $width-1x $height-1x;
   }
 }
+
+// for CoA FRC
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  max-width: 400px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .image-container {
+    flex-direction: column; /* Stack images vertically on mobile */
+  }
+  .image {
+    margin-bottom: 25px; /* Adjust spacing between images on mobile */
+    max-width: 275px;
+  }
+}
+
+// for logos and icons
+.image-container-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+  padding-left: 1vw;
+}
