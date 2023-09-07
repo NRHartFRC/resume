@@ -22,6 +22,31 @@
   white-space: nowrap;
   background-color: $progress-bar-bg;
   @include transition($progress-bar-transition);
+  animation: progress-bar-animation 3s ease;
+}
+
+@keyframes progress-bar-animation {
+  0% {
+    width: 0;
+  }
+  10%{
+    width: 10%;
+  }
+  20% {
+    width: 20%;
+  }
+  30% {
+    width: 30%;
+  }
+  40% {
+    width: 40%;
+  }
+  50% {
+    width: 50%;
+  }
+  60% {
+    width: 60%;
+  }
 }
 
 .progress-bar-striped {

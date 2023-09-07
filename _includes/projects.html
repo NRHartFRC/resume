@@ -1,0 +1,96 @@
+<style>
+/* Style for the projects section */
+.projects-section {
+    padding: 20px;
+}
+
+.projects-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the individual project items */
+.project-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #328998;
+}
+
+.project-tagline {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #328998;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border: none; /* Remove the border */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.project-link:hover {
+    background-color:#328998; /* Lighter background color on hover */
+    text-decoration: none;
+}
+</style>
+
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+    <section class="resume-section summary-section mb-5" style="margin-bottom: 20px !important;">
+        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{ projects.title }}</h2>
+        <div class="resume-section-content">
+            <p class="mb-0">{{ projects.intro }}</p>
+        </div>
+    </section>
+    <div class="projects-list">
+        {% for assignments in projects.assignments %}
+        <div class="project-item">
+            <h3 class="project-title">{{ assignments.title }}</h3>
+            <p class="project-tagline">{{ assignments.tagline }}</p>
+            <a class="project-link" href="{{ assignments.link }}">Visit</a>
+        </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<script>
+var projectLinks = document.querySelectorAll('.project-link');
+
+if (projectLinks.length > 0) {
+    projectLinks.forEach(function(projectLink) {
+        // Gradient animation on hover
+        projectLink.addEventListener('mouseover', function() {
+            projectLink.style.backgroundImage = 'linear-gradient(45deg, #328998, #878787)';
+        });
+
+        projectLink.addEventListener('mouseout', function() {
+            projectLink.style.backgroundImage = 'none';
+        });
+
+        // Scale animation on click
+        projectLink.addEventListener('click', function() {
+            projectLink.style.transform = 'scale(1.1)';
+            setTimeout(function() {
+                projectLink.style.transform = 'scale(1)';
+            }, 200);
+        });
+    });
+}
+</script>

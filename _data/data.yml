@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error can lead to failures in output
 #
 
 header:
@@ -7,7 +7,7 @@ header:
   avatar: NRProfile.png #CoachMentorNR.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   email: rombachnicholas@gmail.com
   phone: (231) 233-8787
-  website: https://oceanarobotics.github.io/OceanaFRC/
+  website: https://nrhartfrc.github.io/resume/
   linkedin: NicholasRombach
   github: NRHartFRC
   birthdate: '1996-07-01'
@@ -19,17 +19,9 @@ header:
   # codewars:
   # goodreads: # Number-Username, e.g. 123456-alandoe
 
-# languages:
-#   - idiom: English
-#     level: Native
-#   - idiom: Spanish
-#     level: Beginner
-#   # - idiom: Spanish
-#   #   level: Professional
-
 interests:
   - name: Robotics 🦾
-    link: # https://oceanarobotics.github.io/OceanaFRC/
+    link: https://oceanarobotics.github.io/OceanaFRC/
   - name: Botany 🌹
     link:
   - name: Gardening 🐝
@@ -259,64 +251,39 @@ experiences:
       - Block mold machine
       - MS Office
 
-# awards:
-#   - name: Award Name Lorem
-#     description: |
-#       Award desc goes here, ultricies nec, pellentesque
-#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-#   - name: Award Name Lorem
-#     description: |
-#       Award desc goes here, ultricies nec, pellentesque
-#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+projects:
+  title: Projects
+  intro: >
+    I have undertaken an array of initiatives, from coaching and mentoring a local high school's FIRST Robotics 
+    Competition Team to providing freelance IT and engineering support to a local farmer. I have self-taught 
+    web development and financial investing fundamentals, delved into blockchain development and web3 programming, 
+    deployed smart contracts on Ethereum blockchain, and assisted in launching a family construction business. 
+    Engaging in competitive cybersecurity events and freelancing in website development have further 
+    enriched my skill set.
+  assignments:
+    - title: Oceana County Robotics Team Website
+      link: "https://oceanarobotics.github.io/OceanaFRC/"
+      tagline: "A dedicated, work-in-progress, starter website to help teach high school students about web development fundamentals."
 
-# Projects are not used in this template for now
-# projects:
-#   title: Projects
-#   intro: >
-#     In recent, I have been volunteering at a local high school, coaching and mentoring robotics. I was als
-#   assignments:
-#     - title: Velocity
-#       link: "#hook"
-#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: Local Farm Workflow Mapping
+      link: "https://drive.google.com/file/d/1jnPyt5y045xk7ul9nxq9FiXs1686R49b/view?usp=sharing"
+      tagline: "A flow diagram that served as an algorithm for a traceable and sustainable processing solution for an asparagus packing plant."
 
-#     - title: DevStudio
-#       link: "#"
-#       tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: Family Construction Business
+      link: "https://rombachandsons.com/"
+      tagline: "A. Rombach & Sons is a wholesome, family owned and operated company serving West Michigan's residential and commercial construction and excavating needs. Local to Lake, Mason, and Oceana counties."
+      
+    - title: Cryptocurrency Arbitrage Trading Bot
+      link: "/resume/src/private.html"
+      tagline: "An automated trading program that uses a web3 algorithm to leverage 'flashloans.' This program autonomously analyzes price differences between different exchanges, and executes profitable trades on my behalf via smart contracts."
 
-#     - title: Tempo
-#       link: "#"
-#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Cryptocurrency Exchange Application
+      link: "/resume/src/private.html"
+      tagline: "A decentralized app (or 'dApp') for trading permissionless cryptocurrencies on Ethereum blockchains. Personal use only: currently unavailable for public use (KYC, AML, and legal restrictions)."
 
-#     - title: Atom
-#       link: "#"
-#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#     - title: Delta
-#       link: "#"
-#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# Publications are not used in this template for now
-# publications:
-#   title: Publications
-#   intro: |
-#     You can list your publications in this section. Lorem ipsum dolor sit
-#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#     bibendum fringilla a eu lectus.
-#   papers:
-#     - title: The Art of Computer Programming
-#       link: "#"
-#       authors: Donald E. Knuth
-#       conference: Addison-Wesley, 1968
-
-#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#       link: "#"
-#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#     - title: A syntax directed compiler for Algol 60
-#       link: "#"
-#       authors: Edgar T. Irons
-#       conference: "Comm. ACM 4 (1961), 51–55"
+    - title: Non-fungible Token (NFT) Powered Application for Agriculture
+      link: "/resume/src/wip.html"
+      tagline: "Currently working on a decentralized finanace (DeFi) project that exemplifies a 'farm-to-table' sales model. This application enables direct-to-consumer sales (less the fees of using credit cards). It features tokenized (fractional) ownership of a company. The proposed benefits of this dApp are sustainability/tracability of both perishable and non-perishable assets, increased liquidity, increased funding and productivity, and global market access."
 
 skills:
   - category: Design
@@ -444,3 +411,43 @@ skills:
       - Blockchain / Web3
       - Smart contracts
 
+# Publications are not used in this template for now
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: "#"
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
+
+#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#       link: "#"
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#     - title: A syntax directed compiler for Algol 60
+#       link: "#"
+#       authors: Edgar T. Irons
+#       conference: "Comm. ACM 4 (1961), 51–55"
+
+# awards:
+#   - name: Award Name Lorem
+#     description: |
+#       Award desc goes here, ultricies nec, pellentesque
+#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+#   - name: Award Name Lorem
+#     description: |
+#       Award desc goes here, ultricies nec, pellentesque
+#       eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+
+# languages:
+#   - idiom: English
+#     level: Native
+#   - idiom: Spanish
+#     level: Beginner
+#   # - idiom: Spanish
+#   #   level: Professional
