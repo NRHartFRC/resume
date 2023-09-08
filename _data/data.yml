@@ -306,7 +306,7 @@ skills:
         level: 60%
   - category: Controls
     tools:
-      - name: FactoryTalk View Studio ME
+      - name: FactoryTalk View ME
         level: 80%
       - name: RS Logix / Studio 5000
         level: 90%
