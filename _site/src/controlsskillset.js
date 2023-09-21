@@ -2,7 +2,7 @@
 
 const controlsdata = {
   labels: [
-    'FactoryTalk View Studio ME',
+    'FactoryTalk View ME',
     'Studio 5000',
     'Ladder Logic',
     'PanelView Plus',
