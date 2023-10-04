@@ -83,6 +83,23 @@ title: Portfolio
             transform: scale(1.05);
             color: black;
         }
+
+        .return-button {
+            display: block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none; /* Remove underline on the link */
+            border-radius: 25px; /* Add rounded corners */
+            font-weight: bold; /* Make text bold */
+            justify-content: center;
+            text-align: center;
+            transition: background-color 0.3s ease; /* Add a hover effect */
+        }
+
+        .return-button:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
     </style>
 
     <!-- Favicon -->
@@ -112,7 +129,7 @@ title: Portfolio
                 <img class="portfolio-image" src="/resume/CAD/f5272.png" alt="4th axis mach fix">
                 <div class="portfolio-title">4th Axis Machine Fixture</div>
             </div>
-        </a><a data-fancybox="portfolio" href="/resume/CAD/f5272nopart.PNG" data-caption="4th Axis Machine Fixture without Part" style="display: none;"></a>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5272nopart.png" data-caption="4th Axis Machine Fixture without Part" style="display: none;"></a>
         <a data-fancybox="portfolio" href="/resume/CAD/bumperbeamRHSmachfix.jpg" data-caption="Installed 4th Axis Machine Fixture RHS" style="display: none;"></a>
 
 
@@ -121,7 +138,7 @@ title: Portfolio
                 <img class="portfolio-image" src="/resume/CAD/f5407.png" alt="elu saw fix">
                 <div class="portfolio-title">Semi-Automated Compound Angle Saw Fixture</div>
             </div>
-        </a><a data-fancybox="portfolio" href="/resume/CAD/f5407nopart.PNG" data-caption="Elu Saw Machine Fixture without Part" style="display: none;"></a>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5407nopart.png" data-caption="Elu Saw Machine Fixture without Part" style="display: none;"></a>
 
 
         <a data-fancybox="portfolio" href="/resume/CAD/f5444.png" data-caption="Assembly, Part Mark, and Automated Quality Inspection Station">
@@ -137,7 +154,7 @@ title: Portfolio
                 <img class="portfolio-image" src="/resume/CAD/f5238.png" alt="dimple machine">
                 <div class="portfolio-title">Assembly Machine</div>
             </div>
-        </a><a data-fancybox="portfolio" href="/resume/CAD/f5238transparent.PNG" data-caption="Assembly and Component Fixation Machine Transparent Part" style="display: none;"></a>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5238transparent.png" data-caption="Assembly and Component Fixation Machine Transparent Part" style="display: none;"></a>
 
 
         <a data-fancybox="portfolio" href="/resume/CAD/f5263close.png" data-caption="Assembly, Component Fixation, and Part Mark Machine">
@@ -195,8 +212,9 @@ title: Portfolio
             </div>
         </a><a data-fancybox="portfolio" href="/resume/CAD/f5384withpart.png" data-caption="Automated Flare and Drill Machine with Part" style="display: none;"></a>
 
-
     </div>
+
+    <a href="https://nrhartfrc.github.io/resume/" class="return-button">← Return to Resume</a>
     <script>
         $(document).ready(function () {
             $('[data-fancybox="portfolio"]').fancybox({
