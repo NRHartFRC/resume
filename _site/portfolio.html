@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Design Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #5c5c5c;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 56px;
+            color: #f8f8f8;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.862);
+            font-family: 'Arial', sans-serif; /* Change the font family to your desired font */
+            font-weight: bold; /* Make the text bold */
+            text-transform: uppercase; /* Convert text to uppercase */
+            text-align: center;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+        0% {
+            transform: scale(0.7);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.7);
+        }
+        }
+
+        .portfolio-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-width: 100%; /* Limit the maximum width of the item */
+            transform: scale(0.7);
+        }
+
+        .portfolio-item:hover {
+            transform: scale(0.8);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .portfolio-image {
+            width: 100%; /* Make sure the image takes up the full width of the item */
+            height: auto;
+            transition: filter 0.5s;
+        }
+
+        .portfolio-item:hover .portfolio-image {
+            filter: grayscale(50%);
+        }
+
+        .portfolio-title {
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .portfolio-item:hover .portfolio-title {
+            transform: scale(1.05);
+            color: black;
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+</head>
+<body>
+    <h1>My Design Portfolio</h1>
+    <div class="portfolio-items"></div>
+        <a data-fancybox="portfolio" href="/resume/CAD/sawmachinecad.jpg" data-caption="Saw and Deburr Machine Solid Model">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5341.png" alt="saw machine">
+                <div class="portfolio-title">Semi-Automated Saw & Deburr Machine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/sawmachine.jpg" data-caption="Saw and Deburr Machine for Robot Cell" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5272.png" data-caption="4th Axis Machine Fixture with Milled Part">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5272.png" alt="4th axis mach fix">
+                <div class="portfolio-title">4th Axis Machine Fixture</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5272nopart.PNG" data-caption="4th Axis Machine Fixture without Part" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/CAD/bumperbeamRHSmachfix.jpg" data-caption="Installed 4th Axis Machine Fixture RHS" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5407.png" data-caption="Compound Angle Elu Saw Fixture">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5407.png" alt="elu saw fix">
+                <div class="portfolio-title">Semi-Automated Compound Angle Saw Fixture</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5407nopart.PNG" data-caption="Elu Saw Machine Fixture without Part" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5444.png" data-caption="Assembly, Part Mark, and Automated Quality Inspection Station">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5444.png" alt="assembly station">
+                <div class="portfolio-title">Assembly, Part Mark, and Quality Inspection Station</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/assemblystation.png" data-caption="Assembly Machine with Ancillaries" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5238.png" data-caption="Assembly and Component Fixation Machine">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5238.png" alt="dimple machine">
+                <div class="portfolio-title">Assembly Machine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5238transparent.PNG" data-caption="Assembly and Component Fixation Machine Transparent Part" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5263close.png" data-caption="Assembly, Component Fixation, and Part Mark Machine">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5263.png" alt="crimp machine">
+                <div class="portfolio-title">Assembly and Part Mark Machine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/crimpmachine.jpg" data-caption="Assembly Machine before Electrical and Plumbing" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/CAD/crimpmachine2.jpg" data-caption="Assembly Machine in Production" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5427.png" data-caption="Production Drill Table Model">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5427.png" alt="drill table">
+                <div class="portfolio-title">Drill Table</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/drilltable.png" data-caption="Production Drill Table Electrified and Plumbed" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/scrapbin.png" data-caption="Scrap Bin for Non-Conforming Assemblies">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/scrapbin.png" alt="scrap bin">
+                <div class="portfolio-title">Scrap Bin</div>
+            </div>
+        </a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5222.png" data-caption="Crush Can Part Marking Machine Model">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5222.png" alt="part mark">
+                <div class="portfolio-title">Part Mark Machine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/crushcanpartmark.jpg" data-caption="Semi-Automated Park Marking Machine" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5298.png" data-caption="Robot Saw Fixture with Part">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5298.png" alt="robosaw fix">
+                <div class="portfolio-title">Robot Saw Fixture</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/robosawmachfix.jpg" data-caption="Teach Pendant Robot Saw Machine Fixture" style="display: none;"></a>
+
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5264.png" data-caption="4th Axis Machine Fixture with Part">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5264.png" alt="4th axis fixture">
+                <div class="portfolio-title">4th Axis Machine Fixture</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5264machfix.png" data-caption="4th Axis Machine Fixture without Part" style="display: none;"></a>
+
+        <a data-fancybox="portfolio" href="/resume/CAD/f5384.png" data-caption="Automated Flare and Drill Machine without Part">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/CAD/f5384.png" alt="flare and drill">
+                <div class="portfolio-title">Automated Flare/Notch and Drill Machine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/CAD/f5384withpart.png" data-caption="Automated Flare and Drill Machine with Part" style="display: none;"></a>
+
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-fancybox="portfolio"]').fancybox({
+                buttons: [
+                    "zoom",
+                    "slideShow",
+                    "fullScreen",
+                    "download",
+                    "thumbs",
+                    "close"
+                ],
+                loop: true
+            });
+        });
+    </script>
+</body>
+</html>
+
+

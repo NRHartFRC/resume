@@ -34,9 +34,11 @@
 
 .project-link {
     display: inline-block;
-    padding: 10px 20px;
+    /* width: 100%; */
+    padding: 10px 50px;
     background-color: #328998;
     color: #fff; /* White text color */
+    text-align: center;
     text-decoration: none;
     border: none; /* Remove the border */
     border-radius: 25px; /* Rounded corners */
@@ -49,6 +51,7 @@
     background-color:#328998; /* Lighter background color on hover */
     text-decoration: none;
 }
+
 </style>
 
 {% assign projects = site.data.data.projects %}
@@ -60,11 +63,14 @@
         </div>
     </section>
     <div class="projects-list">
-        {% for assignments in projects.assignments %}
+        {% for assignment in projects.assignments %}
         <div class="project-item">
-            <h3 class="project-title">{{ assignments.title }}</h3>
-            <p class="project-tagline">{{ assignments.tagline }}</p>
-            <a class="project-link" href="{{ assignments.link }}">Visit</a>
+            <h3 class="project-title">{{ assignment.title }}</h3>
+            <p class="project-tagline">{{ assignment.tagline }}</p>
+            <a class="project-link" href="{{ assignment.link }}">View</a>
+            {% if assignment.title == "Automotive Design Engineering" %}
+                {% include carousel.html %}
+            {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -93,4 +99,11 @@ if (projectLinks.length > 0) {
         });
     });
 }
+</script>
+    
+<!-- carousel -->
+<script>
+  $(document).ready(function () {
+    $('#carouselExampleCaptions').carousel(); // Initialize the carousel
+  });
 </script>

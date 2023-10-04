@@ -261,9 +261,13 @@ projects:
     Engaging in competitive cybersecurity events and freelancing in website development have further 
     enriched my skill set.
   assignments:
-    - title: Oceana County Robotics Team Website
+    - title: Automotive Design Engineering
+      link: "/resume/portfolio"
+      tagline: "Showcasing my work history portfolio of machines and fixtures that served to supply Tier 1 and Tier 2 parts to the automotive industry. I specilized in designing production and protype machines and fixtures for emerging electric vehicle manufacturers. Click 'View' to enter my photo gallery!"
+   
+    - title: Oceana County Robotics Website
       link: "https://oceanarobotics.github.io/OceanaFRC/"
-      tagline: "A dedicated, work-in-progress, starter website to help teach high school students about web development fundamentals."
+      tagline: "A dedicated work-in-progress (CI/CD). I built a starter website to help teach high school students about web development fundamentals. Check it out!"
 
     - title: Local Farm Workflow Mapping
       link: "https://drive.google.com/file/d/1jnPyt5y045xk7ul9nxq9FiXs1686R49b/view?usp=sharing"
@@ -274,12 +278,17 @@ projects:
       tagline: "A. Rombach & Sons is a wholesome, family owned and operated company serving West Michigan's residential and commercial construction and excavating needs. Local to Lake, Mason, and Oceana counties."
       
     - title: Cryptocurrency Arbitrage Trading Bot
-      link: "/resume/src/private.html"
+      link: "https://github.com/NRHartFRC/ArbitrageBot"
       tagline: "An automated trading program that uses a web3 algorithm to leverage 'flashloans.' This program autonomously analyzes price differences between different exchanges, and executes profitable trades on my behalf via smart contracts."
 
     - title: Cryptocurrency Exchange Application
-      link: "/resume/src/private.html"
+      # link: "/resume/src/private.html"
+      link: "https://github.com/NRHartFRC/web3-token-exchange"
       tagline: "A decentralized app (or 'dApp') for trading permissionless cryptocurrencies on Ethereum blockchains. Personal use only: currently unavailable for public use (KYC, AML, and legal restrictions)."
+    
+    - title: Personal Website
+      link: "https://nrhartfrc.github.io/personalwebsite"
+      tagline: "Personal website that embodies my digital alter-ego! Explore my trials and tribulations as a self-taught web developer as you browse through my about me, portfolio, resume, and socials. If you are feeling generous, slap the 'Buy Me a Coffee' button! ☕️."
 
     - title: Non-fungible Token (NFT) Powered Application for Agriculture
       link: "/resume/src/wip.html"
