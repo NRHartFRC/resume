@@ -1,0 +1,197 @@
+---
+layout: null
+title: Portfolio
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechatronics Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #5c5c5c;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 56px;
+            color: #f8f8f8;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.862);
+            font-family: 'Arial', sans-serif; /* Change the font family to your desired font */
+            font-weight: bold; /* Make the text bold */
+            text-transform: uppercase; /* Convert text to uppercase */
+            text-align: center;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+        0% {
+            transform: scale(0.7);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.7);
+        }
+        }
+
+        .portfolio-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-width: 100%; /* Limit the maximum width of the item */
+            transform: scale(0.75);
+        }
+
+        .portfolio-item:hover {
+            transform: scale(0.8);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .portfolio-image {
+            width: 100%; /* Make sure the image takes up the full width of the item */
+            height: auto;
+            transition: filter 0.5s;
+        }
+
+        .portfolio-item:hover .portfolio-image {
+            filter: grayscale(50%);
+        }
+
+        .portfolio-title {
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .portfolio-item:hover .portfolio-title {
+            transform: scale(1.05);
+            color: black;
+        }
+
+        .return-button {
+            display: block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            text-decoration: none; /* Remove underline on the link */
+            border-radius: 25px; /* Add rounded corners */
+            font-weight: bold; /* Make text bold */
+            justify-content: center;
+            text-align: center;
+            transition: background-color 0.3s ease; /* Add a hover effect */
+        }
+
+        .return-button:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <h1>My Mechatronics Portfolio</h1>
+    <div class="portfolio-items"></div>
+
+        <!-- Custom Safety Circuit -->
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/customsafetycircuit.jpg" data-caption="Three-Wire Safety Circuit">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/assets/images/Circuit/customsafetycircuit.jpg">
+                <div class="portfolio-title">Three-Wire Safety Circuit</div>
+            </div>
+        </a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/3wirediagram.png" data-caption="Three wire safety circuit schematic" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/flowdiagram.png" data-caption="Safety circuit flow diagram" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/powersupply.jpg" data-caption="Retrofit control circuit into existing 24Vdc power supply" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/switchinternals.jpg" data-caption="Momentary START and E-STOP push button wiring" style="display: none;"></a>
+        <!-- <a data-fancybox="portfolio" href="https://youtube.com/shorts/Dxux9fnwe64?si=uCNxs5GCVuxgMiuS" data-caption="Safety Control Circuit Demonstration" style="display: none;"></a> -->
+        <a data-fancybox="portfolio" href="/resume/assets/images/Circuit/safetycircuit.jpg" data-caption="Safety circuit for PLC/PAC" style="display: none;"></a>
+
+        <!-- 4700 DT466E -->
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700.jpg" data-caption="2000 International 4700 DT466E">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/assets/images/4700/4700.jpg" alt="4700">
+                <div class="portfolio-title">International Dump Bed & Scissor Lift</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/assets/images/4700/4700cluster.jpg" data-caption="Cluster guage circuit isolation" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700remote.jpg" data-caption="Remote control wiring for hydraulic truck bed" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700stabilizer.jpg" data-caption="Troubleshoot electric/hydraulic pump for stabilizing cylinders" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700valvepack.jpg" data-caption="Troubleshoot solenoid valve pack" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700alarm.jpg" data-caption="Install new back-up alarm" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/pressureswitch.jpg" data-caption="Troubleshoot and repair analog pressure switch attached to PTO gearbox" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/4700/4700cylinders.jpg" data-caption="Bleed telescopic hydraulic cylinders to mitigate air-lock" style="display: none;"></a>
+
+        <!-- JD 310SG Loader Backhoe-->
+        <a data-fancybox="portfolio" href="/resume/assets/images/310SG/310SG.jpg" data-caption="2006 John Deere 310SG Backhoe Loader">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/assets/images/310SG/310.jpg" alt="310SG">
+                <div class="portfolio-title">John Deere Backhoe & Loader</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/assets/images/310SG/fuelliftpump.jpg" data-caption="Troubleshoot, repair, and replace fuel lift pump pressure loss problem" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/310SG/clusterrelay.jpg" data-caption="Troubleshoot and replace relay/solenoid for cab electronics" style="display: none;"></a>
+
+        <!-- Outboard Engine -->
+        <a data-fancybox="portfolio" href="/resume/assets/images/OutboardEngine/smallengine1.jpg" data-caption="Outboard Engine Ignition Coil Testing">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/assets/images/OutboardEngine/smallengine2.jpg" alt="Outboard Engine Stator Coil Testing">
+                <div class="portfolio-title">25 HP 400cc Outboard Mercury 2-Stroke Engine</div>
+            </div>
+        </a><a data-fancybox="portfolio" href="/resume/assets/images/OutboardEngine/enginewiring.jpg" data-caption="Troubleshoot engine ignition wiring" style="display: none;"></a>
+        <a data-fancybox="portfolio" href="/resume/assets/images/OutboardEngine/enginestator.jpg" data-caption="Test engine ignition assembly" style="display: none;"></a>
+
+        <!-- Self Balancing Robot -->
+        <a data-fancybox="portfolio" href="/resume/assets/images/SBR/sbr.jpg" data-caption="Self Balancing Robot using PID Tuning with MPU6050 Gyro">
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="/resume/assets/images/SBR/sbr.jpg" alt="Self Balancing Robot using PID Tuning">
+                <div class="portfolio-title">Self Balancing Robot with PID Closed Loop Control</div>
+            </div>
+            <a data-fancybox="portfolio" href="/resume/assets/images/SBR/mpu6050.jpg" data-caption="Setting up gyroscope testing apparatus" style="display: none;"></a>
+            <a data-fancybox="portfolio" href="/resume/assets/images/SBR/gyrotesting.jpg" data-caption="Testing the MPU6050 gryoscope sensor" style="display: none;"></a>
+            <a data-fancybox="portfolio" href="/resume/assets/images/SBR/pottuning.jpg" data-caption="Tuning the PID controller using 3X potentiometers" style="display: none;"></a>
+            <a data-fancybox="portfolio" href="https://www.youtube.com/watch?v=Lh5NH_-oVvA" data-caption="Self balancing robot demonstrating a semi-tuned PID controller" style="display: none;"></a>
+        </a>
+    
+    <a href="https://nrhartfrc.github.io/resume/" class="return-button">← Return to Resume</a>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-fancybox="portfolio"]').fancybox({
+                buttons: [
+                    "zoom",
+                    "slideShow",
+                    "fullScreen",
+                    "download",
+                    "thumbs",
+                    "close"
+                ],
+                loop: true
+            });
+        });
+    </script>
+</body>
+</html>
+
+

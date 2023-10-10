@@ -263,7 +263,11 @@ projects:
   assignments:
     - title: Automotive Design Engineering
       link: "/resume/portfolio"
-      tagline: "Showcasing my work history portfolio of machines and fixtures that served to supply Tier 1 and Tier 2 parts to the automotive industry. I specilized in designing production and protype machines and fixtures for emerging electric vehicle manufacturers. Click 'View' to enter my photo gallery!"
+      tagline: "Showcasing my work history portfolio of machines and fixtures that served to supply Tier 1 and Tier 2 parts to the automotive industry. I specilized in designing production and protype machines and fixtures for emerging electric vehicle manufacturers. Press 'View' to enter my photo gallery!"
+
+    - title: Mechatronics
+      link: "/resume/mechatronics"
+      tagline: "Designed and implemented a custom, three-wire safety circuit for an off-the-shelf linear actuator. Performed equipment maintenance on a diesel truck and a backhoe/loader. Troubleshooting relevant circuitry, including: fuses, wiring, rocker switches, solenoids, relays, ignition switch, thermocouple, ECU, and pressure switch. Fixed 2-stroke engine for an outboard boat motor after troubleshooting ignition system and impeller. Designed, programmed, built, tested and 'tuned' a self-balancing robot."
    
     - title: Oceana County Robotics Website
       link: "https://oceanarobotics.github.io/OceanaFRC/"
@@ -271,11 +275,11 @@ projects:
 
     - title: Local Farm Workflow Mapping
       link: "https://drive.google.com/file/d/1jnPyt5y045xk7ul9nxq9FiXs1686R49b/view?usp=sharing"
-      tagline: "A flow diagram that served as an algorithm for a traceable and sustainable processing solution for an asparagus packing plant."
+      tagline: "A flow diagram that served as an algorithm for a traceable and sustainable processing solution for a commerical asparagus packing plant."
 
     - title: Family Construction Business
       link: "https://rombachandsons.com/"
-      tagline: "A. Rombach & Sons is a wholesome, family owned and operated company serving West Michigan's residential and commercial construction and excavating needs. Local to Lake, Mason, and Oceana counties."
+      tagline: "A. Rombach & Sons is a wholesome, family owned and operated company serving West Michigan's residential and commercial construction and excavating needs. Proudly serving Lake, Mason, and Oceana counties."
       
     - title: Cryptocurrency Arbitrage Trading Bot
       link: "https://github.com/NRHartFRC/ArbitrageBot"
@@ -284,11 +288,11 @@ projects:
     - title: Cryptocurrency Exchange Application
       # link: "/resume/src/private.html"
       link: "https://github.com/NRHartFRC/web3-token-exchange"
-      tagline: "A decentralized app (or 'dApp') for trading permissionless cryptocurrencies on Ethereum blockchains. Personal use only: currently unavailable for public use (KYC, AML, and legal restrictions)."
+      tagline: "A decentralized app (or 'dApp') for trading permissionless cryptocurrencies on Ethereum blockchains. Personal use only: currently unavailable for public use (due to Know-Your-Customer and Anti-Money Laundering regulations, and overall legal restrictions)."
     
     - title: Personal Website
       link: "https://nrhartfrc.github.io/personalwebsite"
-      tagline: "Personal website that embodies my digital alter-ego! Explore my trials and tribulations as a self-taught web developer as you browse through my about me, portfolio, resume, and socials. If you are feeling generous, slap the 'Buy Me a Coffee' button! ☕️."
+      tagline: "Personal website that embodies my digital alter-ego! Explore my trials and tribulations as a self-taught web developer as you browse through my about me, portfolio, resume, and socials. If you are feeling generous, smash the 'Buy Me a Coffee' button and support the cause! ☕️."
 
     - title: Non-fungible Token (NFT) Powered Application for Agriculture
       link: "/resume/src/wip.html"
@@ -384,13 +388,17 @@ skills:
 
   - category: others
     tools:
-      - FANUC teach pendant
+      - Teach pendant
       - Inverse Kinematics
       - Tooling
       - LVDT
       - Transducers
       - VFD
+      - Wiring
+      - CAN bus
+      - Encoders
       - Vision systems
+      - Troubleshooting
       - Xilinx
       - Speed controllers
       - Gearboxes
@@ -400,11 +408,12 @@ skills:
       - SMAW
       - TIG welding
       - Laser welding
-      - Ultrasoncic welding
-      - Casting
+      - Ultrasonic welding
+      - Investment casting
       - Tensile tesing
       - Pneumatics
       - Hydraulics
+      - Control systems
       - Thermal systems
       - Fluid systems
       - Material science
